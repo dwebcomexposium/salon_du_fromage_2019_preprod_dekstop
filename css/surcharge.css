@@ -1381,6 +1381,33 @@ i.icon-menu {
 	        transform: scale(1.05);
 }
 
+.site-footer .inside .main-navigation {
+	padding: 0;
+}
+
+.site-footer .inside .main-navigation .mn-menu-line {
+	border: 0;
+}
+
+.site-footer .inside .main-navigation .mn-menu-line ul li a span {
+	display: none;
+	color: #AAAAAA;
+}
+
+.site-footer .inside .main-navigation .mn-menu-line ul li a:hover {
+	color: #64C2C8;
+}
+
+.footer-logo {
+	position: absolute;
+	right: 60px;
+	bottom: 20px;
+	z-index: 999;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
 @font-face {
 	font-family: 'Klavika-bold';
 	src: url("/salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
