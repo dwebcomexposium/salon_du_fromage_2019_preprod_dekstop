@@ -561,7 +561,7 @@ i.icon-menu {
 .chiffres-cles .item .item-pro:after {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/chiffre-entree.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/chiffre-entree.svg");
 	width: 10.1rem;
 	height: 11.3rem;
 	z-index: -1;
@@ -576,7 +576,7 @@ i.icon-menu {
 .chiffres-cles .item .item-entreprise:after {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/chiffre-entreprise.png");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/chiffre-entreprise.png");
 	width: 10.7rem;
 	height: 12rem;
 	z-index: -1;
@@ -591,7 +591,7 @@ i.icon-menu {
 .chiffres-cles .item .item-visiteur:after {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/chiffre-visiteur.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/chiffre-visiteur.svg");
 	width: 12.9rem;
 	height: 12.8rem;
 	z-index: -1;
@@ -606,7 +606,7 @@ i.icon-menu {
 .chiffres-cles .item .item-continent:after {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/chiffre-continent.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/chiffre-continent.svg");
 	width: 11.2rem;
 	height: 11.2rem;
 	z-index: -1;
@@ -1213,6 +1213,56 @@ i.icon-menu {
 	background: #64C2C8;
 }
 
+.cxp-pagination .list-grids-with-pagin .grid-la-list {
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0 auto;
+}
+
+.cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item {
+	position: relative;
+	margin: 3rem 1.1%;
+}
+
+.cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item a img {
+	min-height: 23.7rem;
+}
+
+.cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item a div.gla-item p.gla-item-btn {
+	position: absolute;
+	bottom: 0;
+}
+
+.cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item a .gla-item-content {
+	color: #A2A2A2;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 15px 35px -25px rgba(37, 37, 37, 0.73);
+	        box-shadow: 0 15px 35px -25px rgba(37, 37, 37, 0.73);
+	position: relative;
+	min-height: 38rem;
+}
+
+.cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item a .gla-item-content .gla-item-btn {
+	position: absolute;
+	bottom: 3.2rem;
+	right: 7rem;
+}
+
+.cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item a .gla-item-content .gla-item-btn::before {
+	content: '';
+	position: absolute;
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
+	width: .9rem;
+	height: 1.1rem;
+	right: -1.9rem;
+	bottom: .8rem;
+}
+
 @font-face {
 	font-family: 'Klavika-bold';
 	src: url("/salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
@@ -1606,6 +1656,10 @@ article.gla-item {
 
 .nf-main-content {
 	display: none;
+}
+
+.content725858 .article-content ul {
+	margin: 0;
 }
 
 .reset {
@@ -2232,7 +2286,17 @@ article.gla-item {
 	background: white;
 }
 
-.site-footer .prefooter .prefooter-wrapper {
+.site-footer .inside {
+	display: inherit;
+	padding: inherit;
+	max-width: inherit;
+}
+
+.site-footer .inside>* {
+	display: inherit;
+}
+
+.site-footer .inside .prefooter .prefooter-wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -2243,7 +2307,7 @@ article.gla-item {
 	background-repeat: repeat;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc {
 	width: 32.5%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2262,23 +2326,23 @@ article.gla-item {
 	padding: 5rem 0;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc h3 {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc h3 {
 	margin-bottom: 0;
 	font-size: 2.4rem;
 	font-family: "Klavika-bold", sans-serif;
 	padding-left: 3rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc h3::before {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc h3::before {
 	left: -1.4rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc p {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc p {
 	color: #A2A2A2;
 	font-size: 1.6rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc a.bouton {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton {
 	padding: 1.2rem 3.8rem 1.1rem 1.7rem;
 	background: #8C7971;
 	color: white;
@@ -2289,15 +2353,15 @@ article.gla-item {
 	margin-top: 2.5rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover::after {
 	right: 8.5rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover {
 	color: transparent;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc a.bouton::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton::after {
 	content: '';
 	position: absolute;
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
@@ -2310,15 +2374,15 @@ article.gla-item {
 	transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:first-child a.bouton:hover::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:first-child a.bouton:hover::after {
 	right: 6rem !important;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:first-child h3 {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:first-child h3 {
 	position: relative;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:first-child h3::before {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:first-child h3::before {
 	content: '';
 	position: absolute;
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-questions.svg");
@@ -2327,11 +2391,11 @@ article.gla-item {
 	top: .3rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(2) h3 {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(2) h3 {
 	position: relative;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before {
 	content: '';
 	position: absolute;
 	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-infos.svg");
@@ -2340,11 +2404,11 @@ article.gla-item {
 	top: .6rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) h3 {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) h3 {
 	position: relative;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before {
 	content: '';
 	position: absolute;
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-reseaux.svg");
@@ -2352,28 +2416,28 @@ article.gla-item {
 	height: 3.2rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul {
 	display: inline-block;
 	list-style-type: none;
 	margin-top: 1.7rem;
 	padding: 0 1rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li {
 	display: inline-block;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a {
 	padding: 0 1.8rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a:hover::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a:hover::after {
 	-webkit-transform: scale(1.3) !important;
 	    -ms-transform: scale(1.3) !important;
 	        transform: scale(1.3) !important;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a::after {
 	content: '';
 	position: absolute;
 	background-repeat: no-repeat;
@@ -2382,47 +2446,47 @@ article.gla-item {
 	transition: all .2s ease;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a img {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a img {
 	display: none;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(1) a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(1) a::after {
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/facebook.svg");
 	width: .9rem;
 	height: 1.5rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(2) a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(2) a::after {
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/twitter.svg");
 	width: 1.6rem;
 	height: 1.3rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(3) a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(3) a::after {
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/insta.svg");
 	width: 1.6rem;
 	height: 1.6rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(4) a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(4) a::after {
 	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/youtube.svg");
 	width: 2rem;
 	height: 1.4rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(5) a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(5) a::after {
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/in.svg");
 	width: 1.4rem;
 	height: 1.3rem;
 }
 
-.site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(6) a::after {
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(6) a::after {
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/snap.svg");
 	width: 1.4rem;
 	height: 1.3rem;
 }
 
-.site-footer .inside {
+.site-footer .main-navigation {
 	max-width: inherit;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2436,17 +2500,13 @@ article.gla-item {
 	padding: 4rem 12rem;
 }
 
-.site-footer .inside nav.main-navigation {
+.site-footer .main-navigation .nn-menu-line {
 	-webkit-box-shadow: inherit;
 	        box-shadow: inherit;
 	background: inherit;
 }
 
-.site-footer .inside nav.main-navigation .mn-menu-line {
-	border-bottom: none;
-}
-
-.site-footer .inside nav.main-navigation .mn-menu-line ul li.mn-menu-item a.mn-link {
+.site-footer .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link {
 	padding: 0;
 	min-height: 0;
 	margin-right: 3rem;
@@ -2455,7 +2515,7 @@ article.gla-item {
 	transition: all .3s;
 }
 
-.site-footer .inside nav.main-navigation .mn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text {
+.site-footer .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text {
 	color: #AAAAAA;
 	font-size: 1.2rem;
 	-webkit-transition: all .2s ease-in-out;
@@ -2463,15 +2523,15 @@ article.gla-item {
 	transition: all .2s ease-in-out;
 }
 
-.site-footer .inside nav.main-navigation .mn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text::before {
+.site-footer .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text::before {
 	display: none;
 }
 
-.site-footer .inside nav.main-navigation .mn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text:hover {
+.site-footer .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text:hover {
 	color: #64C2C8;
 }
 
-.site-footer .inside .footer-logo {
+.site-footer .main-navigation .footer-logo {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -2481,14 +2541,14 @@ article.gla-item {
 	margin-right: 4rem;
 }
 
-.site-footer .inside .footer-logo p {
+.site-footer .main-navigation .footer-logo p {
 	font-size: 1.1rem;
 	position: relative;
 	margin-top: 0;
 	margin-right: 1rem;
 }
 
-.site-footer .inside .footer-logo p::after {
+.site-footer .main-navigation .footer-logo p::after {
 	content: "";
 	position: absolute;
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/logo-unflux.svg");
@@ -2499,7 +2559,7 @@ article.gla-item {
 	cursor: pointer;
 }
 
-.site-footer .inside .footer-logo img {
+.site-footer .main-navigation .footer-logo img {
 	margin-right: 1rem;
 	cursor: pointer;
 }
@@ -2618,7 +2678,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(1) {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-1.jpg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-1.jpg");
 	background-repeat: no-repeat;
 	-ms-flex-preferred-size: 50%;
 	    flex-basis: 50%;
@@ -2627,7 +2687,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(2) {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-2.jpg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-2.jpg");
 	-ms-flex-preferred-size: 50%;
 	    flex-basis: 50%;
 	background-repeat: no-repeat;
@@ -4204,6 +4264,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 	color: #64C2C8;
 	max-width: 79rem;
 	display: inline-block;
+	margin-top: 2rem;
 }
 
 .content725845 .site-wrapper .layout-2-col .zone .article-wrapper .article-content h3 strong {
@@ -4254,6 +4315,10 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 	-webkit-transform: inherit;
 	    -ms-transform: inherit;
 	        transform: inherit;
+}
+
+.content725845 .site-wrapper .layout-2-col .zone .article-wrapper .article-content figure img {
+	width: auto;
 }
 
 .content725847 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p {
@@ -4335,12 +4400,12 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .content725855 .layout-2-col .zone .article-wrapper .article-content figure {
-	width: 700px;
+	width: auto;
 	height: auto;
 }
 
 .content725855 .layout-2-col .zone .article-wrapper .article-content figure img {
-	width: 100%;
+	width: auto;
 }
 
 .content725855 .layout-2-col .zone .article-wrapper .article-content h4 {
@@ -4430,16 +4495,103 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .content725851 .article-content figure strong img {
 	height: auto;
+	width: auto !important;
 }
 
 
 /* ANIMATIONS */
+
+.content725878 .article-content ul {
+	padding-left: 0;
+}
+
+.content725878 .article-content table tbody tr td {
+	border: none;
+	background: transparent;
+}
+
+.content725878 .article-content table tbody tr:nth-child(1) td {
+	background: transparent;
+}
+
+.content725878 .article-content table tbody tr:nth-child(1) td p {
+	color: #A2A2A2;
+}
+
+.content725878 .article-content table tbody tr:nth-child(1) td p.txtcenter {
+	color: #8C7971;
+	margin: 0;
+	text-align: left;
+}
+
+.content725878 .article-content table tbody tr:nth-child(2) td p {
+	color: #A2A2A2;
+}
+
+.content725878 .article-content table tbody tr:nth-child(2) td p.txtcenter {
+	color: #8C7971;
+	margin: 0;
+	text-align: left;
+}
+
+.content725878 .article-content table tbody tr:nth-child(3) td p {
+	color: #A2A2A2;
+}
+
+.content725878 .article-content table tbody tr:nth-child(3) td p.txtcenter {
+	color: #8C7971;
+	margin: 0;
+	text-align: left;
+}
+
+.content725878 .article-content table tbody tr:nth-child(4) td p {
+	color: #A2A2A2;
+}
+
+.content725878 .article-content table tbody tr:nth-child(4) td p.txtcenter {
+	color: #8C7971;
+	margin: 0;
+	text-align: left;
+}
+
+.content725878 .article-content table tbody tr:nth-child(5) td p {
+	color: #A2A2A2;
+}
+
+.content725878 .article-content table tbody tr:nth-child(5) td p.txtcenter {
+	color: #8C7971;
+	margin: 0;
+	text-align: left;
+}
+
+.content725879 figure img {
+	width: auto;
+	margin: 2rem;
+}
+
+.content725879 h4 {
+	margin-top: 2.5rem;
+}
+
+.content725880 figure img {
+	width: auto;
+}
+
+.content725880 p {
+	-webkit-margin-after: 2rem;
+	        margin-block-end: 2rem;
+}
+
+.content725880 h2 {
+	margin-top: 2rem;
+}
 
 
 /* INFOS PRATIQUES */
 
 .content725860 .site-wrapper .layout-2-col .zone .article-wrapper .article-content ul {
 	padding: 0;
+	margin-left: 0;
 }
 
 .content725860 .site-wrapper .layout-2-col .zone .article-wrapper p {
@@ -4447,8 +4599,20 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 	line-height: 2.9rem;
 }
 
+.content725860 .site-wrapper .layout-2-col .zone .article-wrapper p strong {
+	color: #64C2C8;
+}
+
+.content725861 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p {
+	font-size: 1.8rem;
+	line-height: 2.9rem;
+	font-family: "Gudea-bold", sans-serif;
+	margin-top: 12rem;
+}
+
 .content725861 .site-wrapper .layout-2-col .zone .article-wrapper .article-content ul {
 	padding: 0;
+	margin-left: 0;
 }
 
 .content725861 .site-wrapper .layout-2-col .zone .article-wrapper .article-content a.externe {
@@ -4459,12 +4623,24 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 	text-align: left;
 }
 
+.content725858 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p a.externe {
+	color: #64C2C8;
+}
+
+.content725858 .site-wrapper .layout-2-col .zone .article-wrapper .article-content h4 {
+	margin-top: 2.5rem;
+}
+
+.content725858 .site-wrapper .layout-2-col .zone .article-wrapper .article-content h3 {
+	margin-top: 2.5rem;
+}
+
 .content725858 .site-wrapper .layout-2-col .zone .article-wrapper .article-content ul {
 	padding: 0;
 }
 
 .content725858 .site-wrapper .layout-2-col .zone .article-wrapper .article-content ul li em {
-	color: #64C2C8;
+	color: #64C2C8 !important;
 }
 
 
@@ -4480,7 +4656,15 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .content725863 .wrapper .article-content p {
-	text-align: left;
+	text-align: center;
+}
+
+.content725863 .wrapper .article-content p a {
+	color: #64C2C8;
+}
+
+.content725863 .wrapper .article-content h5 {
+	padding: 3rem 0 0 0;
 }
 
 .content725864 .wrapper {
@@ -4495,12 +4679,60 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .content725864 .wrapper .zone .list-articles .inside .main-title-with-link {
 	border-bottom: none;
 	font-family: "Klavika-bold", sans-serif !important;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center !important;
+	    -ms-flex-pack: center !important;
+	        justify-content: center !important;
 }
 
 .content725864 .wrapper .zone .list-articles .inside .main-title-with-link h1 {
-	font-size: 5.2rem;
 	color: #64C2C8;
-	padding: 0;
+	font-size: 5.2rem;
+	margin: 10rem 0 2rem 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: center;
+	        flex-direction: center;
+}
+
+.content725864 .wrapper .zone .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0 auto;
+}
+
+.content725864 .wrapper .zone .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .article {
+	position: relative;
+	margin: 3rem 1.1%;
+}
+
+.content725864 .wrapper .zone .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .article a .gla-item-content {
+	left: 0;
+	padding: 1.5rem 3rem 2.5rem;
+	right: 0;
+	text-align: left;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	-webkit-box-shadow: 0 15px 35px -25px rgba(37, 37, 37, 0.73) !important;
+	        box-shadow: 0 15px 35px -25px rgba(37, 37, 37, 0.73) !important;
+	position: relative;
+	min-height: 38rem;
+}
+
+.content725864 .wrapper .zone .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .article a .gla-item-content .gla-item-btn {
+	position: absolute !important;
+	bottom: 3.2rem;
+	right: 7rem;
 }
 
 
