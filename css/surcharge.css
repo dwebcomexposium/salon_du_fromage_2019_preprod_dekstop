@@ -1381,6 +1381,10 @@ i.icon-menu {
 	        transform: scale(1.05);
 }
 
+footer .inside .main-navigation .mn-menu-line ul li a span::before {
+	display: none;
+}
+
 @font-face {
 	font-family: 'Klavika-bold';
 	src: url("/salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
