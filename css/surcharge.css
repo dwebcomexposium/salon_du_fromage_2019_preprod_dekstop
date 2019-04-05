@@ -2218,7 +2218,7 @@ article.gla-item {
 .site-banner .inside .header-logo .header-logo-txt p::before {
 	content: "";
 	position: absolute;
-	background-image: url(/salon_du_fromage_2020_preprod_desktop/img/logo.png);
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/img/logo.png");
 	width: 13.7rem;
 	height: 7.1rem;
 	left: 0;
