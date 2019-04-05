@@ -1680,7 +1680,7 @@ article.gla-item {
 
 .site-banner .inside .block form button i::before {
 	content: '';
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/search.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/search.svg");
 	width: 1.6rem;
 	height: 1.6rem;
 	position: absolute;
@@ -1727,7 +1727,7 @@ article.gla-item {
 .site-banner .inside .block .ql-list .linkid726170 .btn-primary::after {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/stand.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/stand.svg");
 	width: 3.2rem;
 	height: 2.9rem;
 	right: 1.5rem;
@@ -1820,7 +1820,7 @@ article.gla-item {
 
 .site-banner .inside .block:nth-child(2) ul.ql-list .linkid726172 a i::before {
 	content: '';
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/facebook.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/facebook.svg");
 	width: 0.9rem;
 	height: 1.5rem;
 	position: absolute;
@@ -1836,7 +1836,7 @@ article.gla-item {
 
 .site-banner .inside .block:nth-child(2) ul.ql-list .linkid726173 a i::before {
 	content: '';
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/twitter.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/twitter.svg");
 	width: 1.6rem;
 	height: 1.3rem;
 	position: absolute;
@@ -1849,7 +1849,7 @@ article.gla-item {
 
 .site-banner .inside .block:nth-child(2) ul.ql-list .linkid726174 a i::before {
 	content: '';
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/insta.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/insta.svg");
 	width: 1.6rem;
 	height: 1.6rem;
 	position: absolute;
@@ -1862,7 +1862,7 @@ article.gla-item {
 
 .site-banner .inside .block:nth-child(2) ul.ql-list .linkid726175 a i::before {
 	content: '';
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/youtube.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/youtube.svg");
 	width: 2rem;
 	height: 1.4rem;
 	position: absolute;
@@ -1874,7 +1874,7 @@ article.gla-item {
 
 .site-banner .inside .block:nth-child(2) ul.ql-list .linkid726176 a i::before {
 	content: '';
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/in.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/in.svg");
 	width: 1.4rem;
 	height: 1.3rem;
 	position: absolute;
@@ -1947,7 +1947,7 @@ article.gla-item {
 .site-banner .inside #cxpmClientAccountWidget .not-logged .widget-text::before {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/account.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/account.svg");
 	width: 1.3rem;
 	height: 1.4rem;
 	bottom: .9rem;
@@ -1982,7 +1982,7 @@ article.gla-item {
 .site-banner .inside #cxpmClientAccountWidget .not-logged .widget-my-selection::before {
 	content: '';
 	position: absolute;
-	background-image: url(/salon_du_fromage_2020_preprod_desktop/pictos/bag.svg);
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/bag.svg");
 	width: 1.3rem;
 	height: 1.7rem;
 	bottom: .85rem;
@@ -2071,7 +2071,7 @@ article.gla-item {
 .site-banner .inside .header-logo .header-logo-txt a.btn::after {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/badge.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/badge.svg");
 	width: 3.2rem;
 	height: 2.3rem;
 	right: 1.5rem;
@@ -2187,7 +2187,7 @@ article.gla-item {
 .site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 ul.mn-menu-lvl2 li.mn-item-lvl-2 a.mn-link::before {
 	content: "";
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
 	background-repeat: no-repeat;
 	width: 9px;
 	height: 12px;
@@ -2239,7 +2239,7 @@ article.gla-item {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/img/texture.jpg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/img/texture.jpg");
 	background-repeat: repeat;
 }
 
@@ -2300,7 +2300,7 @@ article.gla-item {
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc a.bouton::after {
 	content: '';
 	position: absolute;
-	background-image: url(/salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg);
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
 	width: .8rem;
 	height: 1rem;
 	right: 1.8rem;
@@ -2321,7 +2321,7 @@ article.gla-item {
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:first-child h3::before {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-questions.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-questions.svg");
 	width: 2.8rem;
 	height: 2.8rem;
 	top: .3rem;
@@ -2347,7 +2347,7 @@ article.gla-item {
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-reseaux.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-reseaux.svg");
 	width: 3.2rem;
 	height: 3.2rem;
 }
@@ -2387,19 +2387,19 @@ article.gla-item {
 }
 
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(1) a::after {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/facebook.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/facebook.svg");
 	width: .9rem;
 	height: 1.5rem;
 }
 
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(2) a::after {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/twitter.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/twitter.svg");
 	width: 1.6rem;
 	height: 1.3rem;
 }
 
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(3) a::after {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/insta.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/insta.svg");
 	width: 1.6rem;
 	height: 1.6rem;
 }
@@ -2411,13 +2411,13 @@ article.gla-item {
 }
 
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(5) a::after {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/in.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/in.svg");
 	width: 1.4rem;
 	height: 1.3rem;
 }
 
 .site-footer .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li:nth-child(6) a::after {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/snap.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/snap.svg");
 	width: 1.4rem;
 	height: 1.3rem;
 }
@@ -2491,7 +2491,7 @@ article.gla-item {
 .site-footer .inside .footer-logo p::after {
 	content: "";
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/logo-unflux.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/logo-unflux.svg");
 	width: 2.5rem;
 	height: 1.4rem;
 	bottom: .8rem;
