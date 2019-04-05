@@ -94,7 +94,7 @@
 }
 
 .article-title::before {
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg");
 	content: "";
 	display: block;
 	width: 100%;
@@ -1789,6 +1789,10 @@ article.gla-item {
 	color: #AAAAAA !important;
 }
 
+.site-footer .inside .main-navigation .mn-menu-line .mn-menu li a:hover {
+	color: #64C2C8 !important;
+}
+
 .site-footer .inside .main-navigation .mn-menu-line .mn-menu li a span::before {
 	display: none !important;
 }
@@ -2541,7 +2545,7 @@ article.gla-item {
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before {
 	content: '';
 	position: absolute;
-	background-image: url("/salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-infos.svg");
+	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/picto-footer-infos.svg");
 	width: 3.2rem;
 	height: 2.3rem;
 	top: .6rem;
