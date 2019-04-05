@@ -2532,13 +2532,13 @@ article.gla-item {
 }
 
 .site-footer .main-navigation .footer-logo {
+	position: absolute;
+	top: 25rem;
+	right: 129px;
+	z-index: 999;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	margin-right: 4rem;
 }
 
 .site-footer .main-navigation .footer-logo p {
@@ -2562,6 +2562,9 @@ article.gla-item {
 .site-footer .main-navigation .footer-logo img {
 	margin-right: 1rem;
 	cursor: pointer;
+	position: absolute;
+	right: -31px;
+	bottom: 6px;
 }
 
 html[lang="fr"] section.keyfigures .figures .title::before {
