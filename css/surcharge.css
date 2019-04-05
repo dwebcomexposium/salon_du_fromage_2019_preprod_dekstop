@@ -2688,7 +2688,7 @@ article.gla-item {
 	color: #64C2C8;
 }
 
-.site-footer .inside .main-navigation .footer-logo {
+.site-footer .inside .footer-logo {
 	position: absolute;
 	top: 25rem;
 	right: 129px;
@@ -2698,14 +2698,14 @@ article.gla-item {
 	display: flex;
 }
 
-.site-footer .inside .main-navigation .footer-logo p {
+.site-footer .inside .footer-logo p {
 	font-size: 1.1rem;
 	position: relative;
 	margin-top: 0;
 	margin-right: 1rem;
 }
 
-.site-footer .inside .main-navigation .footer-logo p::after {
+.site-footer .inside .footer-logo p::after {
 	content: "";
 	position: absolute;
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/logo-unflux.svg");
@@ -2716,7 +2716,7 @@ article.gla-item {
 	cursor: pointer;
 }
 
-.site-footer .inside .main-navigation .footer-logo img {
+.site-footer .inside .footer-logo img {
 	margin-right: 1rem;
 	cursor: pointer;
 	position: absolute;
