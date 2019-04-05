@@ -2673,7 +2673,7 @@ article.gla-item {
 }
 
 .site-footer .inside .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text {
-	color: #AAAAAA;
+	color: #AAAAAA !important;
 	font-size: 1.2rem;
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
@@ -2681,7 +2681,7 @@ article.gla-item {
 }
 
 .site-footer .inside .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text::before {
-	display: none;
+	display: none !important;
 }
 
 .site-footer .inside .main-navigation .nn-menu-line ul li.mn-menu-item a.mn-link span.mn-link-text:hover {
