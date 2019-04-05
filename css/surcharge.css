@@ -1780,8 +1780,17 @@ article.gla-item {
 	margin: 0;
 }
 
+.site-footer .inside .main-navigation .mn-menu-line {
+	border-bottom: none !important;
+}
+
 .site-footer .inside .main-navigation .mn-menu-line .mn-menu li a {
 	font-size: 1.2rem !important;
+	color: #AAAAAA !important;
+}
+
+.site-footer .inside .main-navigation .mn-menu-line .mn-menu li a span::before {
+	display: none !important;
 }
 
 .reset {
