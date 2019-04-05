@@ -1389,6 +1389,10 @@ i.icon-menu {
 	border: 0;
 }
 
+.site-footer .inside .main-navigation .mn-menu-line ul li a {
+	color: red;
+}
+
 .site-footer .inside .main-navigation .mn-menu-line ul li a span {
 	display: none;
 	color: #AAAAAA;
