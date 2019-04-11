@@ -1381,7 +1381,7 @@ i.icon-menu {
            transform: scale(1.05);
 }
 
-.front .gsf-fields {
+.gsf-fields {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -1394,30 +1394,29 @@ i.icon-menu {
    margin-right: -2px;
 }
 
-.front .gsf-fields .gsf-input-line {
+.gsf-fields .gsf-input-line {
    -webkit-box-flex: 1;
        -ms-flex: 1;
            flex: 1;
    width: 100%;
 }
 
-.front .gsf-fields .gsf-input-line input {
-   border: 1px solid #cdd2d3;
+.gsf-fields .gsf-input-line input {
    position: absolute;
    top: -17.4rem;
    right: 11.6rem;
-   background-color: #f6f6f6;
+   background-color: #e8e8e8;
    padding: 1.4rem;
    color: #8C7971;
 }
 
-.front .gsf-fields p.gsf-submit-line {
+.gsf-fields p.gsf-submit-line {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
 }
 
-.front .gsf-fields p.gsf-submit-line button {
+.gsf-fields p.gsf-submit-line button {
    background-color: #252525;
    padding: 0 1.7rem;
    font-size: 1.4rem;
@@ -1431,8 +1430,12 @@ i.icon-menu {
    top: -17.4rem !important;
 }
 
-.front .gsf-fields p.gsf-submit-line button:hover {
+.gsf-fields p.gsf-submit-line button:hover {
    background-color: #8C7971;
+}
+
+.site-banner .global-search-form.is-visible .gsf-fields {
+   background: none;
 }
 
 @font-face {
