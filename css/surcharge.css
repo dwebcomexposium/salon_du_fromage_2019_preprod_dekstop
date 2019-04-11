@@ -1406,7 +1406,7 @@ i.icon-menu {
    position: absolute;
    top: -17.4rem;
    right: 11.6rem;
-   background-color: #f0f0f0;
+   background-color: #f6f6f6;
    padding: 1.4rem;
    color: #8C7971;
 }
@@ -1861,6 +1861,10 @@ article.gla-item {
    background: inherit;
    border: inherit;
    color: inherit;
+}
+
+.front .tt-dropdown-menu {
+   display: none;
 }
 
 .reset {
