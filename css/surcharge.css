@@ -26,7 +26,8 @@
 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p {
    margin: 0;
    font-size: 1.8rem;
-   color: #A2A2A2;
+   color: #8C7971 !important;
+   text-align: center;
 }
 
 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p:nth-child(1) {
@@ -138,22 +139,11 @@
 }
 
 .article-title .inside .at-content .at-publication {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-       -ms-flex-pack: center;
-           justify-content: center;
-   margin-bottom: .5rem;
+   display: none;
 }
 
 .article-title .inside .at-content .at-tag {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-       -ms-flex-pack: center;
-           justify-content: center;
+   display: none;
 }
 
 .article-navigation .inside ul.an-list {
@@ -2862,7 +2852,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 /* HOME */
 
 .front .global-wrapper main .site-wrapper .home-mosaic {
-   min-height: 62rem;
+   min-height: 54rem;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -3027,7 +3017,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
    position: absolute;
    width: 100%;
    z-index: 999;
-   top: 55.8rem;
+   top: 49.8rem;
    z-index: 1 !important;
 }
 
