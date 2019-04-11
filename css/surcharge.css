@@ -2311,6 +2311,7 @@ article.gla-item {
    height: 7.1rem;
    left: 0;
    top: -.3rem;
+   background-size: 100%;
 }
 
 .site-banner .inside .header-logo .header-logo-txt p span {
@@ -2323,9 +2324,11 @@ article.gla-item {
    position: absolute;
    right: 3rem;
    top: 3.8rem;
-   -webkit-transition: all .2s ease;
-   -o-transition: all .2s ease;
-   transition: all .2s ease;
+   -webkit-transition: -webkit-transform .2s ease;
+   transition: -webkit-transform .2s ease;
+   -o-transition: transform .2s ease;
+   transition: transform .2s ease;
+   transition: transform .2s ease, -webkit-transform .2s ease;
    background: #64C2C8;
    color: white;
    padding: 1.9rem 6.2rem 1.9rem 1.9rem;
@@ -2506,6 +2509,27 @@ article.gla-item {
    background: #FFFFFF;
    -webkit-box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
            box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
+   min-height: 9rem !important;
+}
+
+.site-banner.is-stuck .header-logo .header-logo-txt p {
+   font-size: 1.9rem;
+   padding-top: 1.8rem;
+   padding-left: 11rem;
+   padding-right: 2rem;
+}
+
+.site-banner.is-stuck .header-logo .header-logo-txt p::before {
+   width: 9rem;
+   background-repeat: no-repeat;
+   top: 0.7rem;
+}
+
+.site-banner.is-stuck .header-logo .header-logo-txt a {
+   -webkit-transition: inherit;
+   -o-transition: inherit;
+   transition: inherit;
+   top: 2.1rem !important;
 }
 
 .site-banner.is-stuck .header-logo img {
@@ -2521,7 +2545,7 @@ article.gla-item {
 }
 
 .site-banner.is-stuck .inside .block .ql-list .ql-item .btn-primary {
-   top: 3.8rem;
+   top: 2.1rem;
 }
 
 .site-footer {
