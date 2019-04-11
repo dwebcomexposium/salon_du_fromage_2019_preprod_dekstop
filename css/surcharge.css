@@ -2944,6 +2944,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
    -webkit-box-direction: normal;
        -ms-flex-direction: column;
            flex-direction: column;
+   max-width: 27rem;
 }
 
 .front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(2) div {
