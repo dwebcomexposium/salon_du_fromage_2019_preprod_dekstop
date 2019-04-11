@@ -51,7 +51,6 @@
        -ms-transform: translate(-50%, -50%);
            transform: translate(-50%, -50%);
    top: 5rem;
-   z-index: 2;
 }
 
 .breadcrumb-nav .inside ul li:last-child a span {
@@ -1880,7 +1879,7 @@ article.gla-item {
 
 .site-banner {
    z-index: 9999;
-   z-index: 2;
+   z-index: 10 !important;
 }
 
 .site-banner .inside {
