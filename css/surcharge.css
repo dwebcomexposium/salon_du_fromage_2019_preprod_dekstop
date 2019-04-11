@@ -1879,11 +1879,11 @@ article.gla-item {
 
 .site-banner {
    z-index: 9999;
+   z-index: 1;
 }
 
 .site-banner .inside {
    position: relative;
-   z-index: 0;
 }
 
 .site-banner .inside .lang-switcher {
