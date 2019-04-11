@@ -3701,14 +3701,51 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
    padding-top: 8.5rem;
 }
 
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent h2::after {
+   content: "";
+   position: absolute;
+   width: 2.2rem;
+   height: .2rem;
+   background: #64C2C8;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
+   bottom: -1.5rem;
+}
+
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent p {
    color: #A2A2A2;
    font-size: 2.2rem;
+   max-width: 58rem;
+   text-align: center;
+   margin-top: 0;
+   font-weight: lighter !important;
+   margin-bottom: 2rem;
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent em {
-   color: #A2A2A2;
+   color: #C1C1C1;
    font-size: 1.6rem;
+   font-weight: 900 !important;
+   padding-bottom: 8.5rem;
+   position: relative;
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent em::after {
+   content: '';
+   background-image: url("/salon_du_fromage_2020_preprod_desktop/img/citations-points.svg");
+   width: 5.8rem;
+   height: 1rem;
+   position: absolute;
+   z-index: 999;
+   bottom: 6.1rem;
+   z-index: 999;
+   left: 6.4rem;
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent em span {
+   font-weight: lighter !important;
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .partner {
