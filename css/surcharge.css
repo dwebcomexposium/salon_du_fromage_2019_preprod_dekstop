@@ -1381,6 +1381,60 @@ i.icon-menu {
            transform: scale(1.05);
 }
 
+.front .gsf-fields {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   position: absolute;
+   top: 100%;
+   right: 0;
+   width: 330px;
+   background: none;
+   padding: 1px;
+   margin-right: -2px;
+}
+
+.front .gsf-fields .gsf-input-line {
+   -webkit-box-flex: 1;
+       -ms-flex: 1;
+           flex: 1;
+   width: 100%;
+}
+
+.front .gsf-fields .gsf-input-line input {
+   border: 1px solid #cdd2d3;
+   position: absolute;
+   top: -17.4rem;
+   right: 11.6rem;
+   background-color: #f0f0f0;
+   padding: 1.4rem;
+   color: #8C7971;
+}
+
+.front .gsf-fields p.gsf-submit-line {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+
+.front .gsf-fields p.gsf-submit-line button {
+   background-color: #252525;
+   padding: 0 1.7rem;
+   font-size: 1.4rem;
+   border: 0;
+   font-weight: 700;
+   text-transform: uppercase;
+   border-radius: 0;
+   color: #fff;
+   padding: 1.2rem 1.8rem !important;
+   right: 6.4rem !important;
+   top: -17.4rem !important;
+}
+
+.front .gsf-fields p.gsf-submit-line button:hover {
+   background-color: #8C7971;
+}
+
 @font-face {
    font-family: 'Klavika-bold';
    src: url("/salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
@@ -2097,10 +2151,10 @@ article.gla-item {
    background: #8C7971;
    color: white;
    bottom: -27px;
-   min-width: 20rem;
    font-family: "Gudea-bold", sans-serif;
    font-weight: 200;
-   padding: 2rem .2rem;
+   white-space: nowrap;
+   padding: 2rem 1.7rem;
 }
 
 .site-banner .inside .block:nth-child(3) {
@@ -2329,6 +2383,30 @@ article.gla-item {
        -ms-flex-positive: 1;
            flex-grow: 1;
    text-align: left;
+}
+
+.site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1:nth-child(1) ul {
+   min-width: 27rem !important;
+}
+
+.site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1:nth-child(2) ul {
+   min-width: 32rem !important;
+}
+
+.site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1:nth-child(3) ul {
+   min-width: 31rem !important;
+}
+
+.site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1:nth-child(4) ul {
+   min-width: 30rem !important;
+}
+
+.site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1:nth-child(5) ul {
+   min-width: 12rem !important;
+}
+
+.site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1:nth-child(6) ul {
+   min-width: 10rem !important;
 }
 
 .site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1 a.mn-link {
