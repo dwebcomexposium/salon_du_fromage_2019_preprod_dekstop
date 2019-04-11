@@ -1883,6 +1883,7 @@ article.gla-item {
 
 .site-banner .inside {
    position: relative;
+   z-index: 0;
 }
 
 .site-banner .inside .lang-switcher {
