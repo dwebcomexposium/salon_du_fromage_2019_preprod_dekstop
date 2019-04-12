@@ -2148,11 +2148,12 @@ article.gla-item {
    position: absolute;
    background: #8C7971;
    color: white;
-   bottom: -27px;
+   bottom: -26px;
    font-family: "Gudea-bold", sans-serif;
    font-weight: 200;
    white-space: nowrap;
    padding: 2rem 1.7rem;
+   margin-left: 1rem;
 }
 
 .site-banner .inside .block:nth-child(3) {
@@ -3831,6 +3832,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
    font-weight: 900 !important;
    padding-bottom: 8.5rem;
    position: relative;
+   z-index: 1;
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent em::after {
@@ -3959,7 +3961,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper #zone4 .edito .inside {
-   max-width: 65%;
+   max-width: 38%;
    margin: 0 auto;
    margin-bottom: 6rem;
    margin-top: 3rem;
@@ -3970,6 +3972,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
    padding: 0;
    position: relative;
    padding-bottom: 3rem;
+   font-size: 3.2rem !important;
 }
 
 .front .global-wrapper main .site-wrapper #zone4 .edito .inside h2::after {
@@ -3984,6 +3987,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .front .global-wrapper main .site-wrapper #zone4 .edito .inside p.style1 {
    margin-top: 0;
+   font-size: 1.7rem !important;
+}
+
+.front .global-wrapper main .site-wrapper #zone4 .edito .inside p.style2 {
+   font-size: 1.7rem !important;
 }
 
 
