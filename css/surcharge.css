@@ -1,3 +1,7 @@
+body {
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
+}
+
 .site-wrapper {
     background: transparent;
     -webkit-box-shadow: none;
@@ -226,7 +230,7 @@ h4,
 h5 {
     color: #64C2C8;
     border-bottom: none;
-    font-family: "cxpm-Klavika-bold", sans-serif !important;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif !important;
     position: relative
 }
 
@@ -235,7 +239,7 @@ h1 {
     color: #64C2C8;
     padding: 0;
     border-bottom: none;
-    font-family: "cxpm-Klavika-bold", sans-serif !important
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif !important
 }
 
 h2 {
@@ -273,7 +277,7 @@ h5 {
 .social-sharing .inside .sr-title {
     font-size: 3.2rem;
     color: #64C2C8;
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     position: relative;
     margin-bottom: 2rem
 }
@@ -427,7 +431,7 @@ li {
 
 h2.gla-item-title {
     color: #8C7971;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     text-align: left
 }
@@ -501,7 +505,7 @@ i.icon-menu {
 }
 
 .grid-la-list article.gla-item .gla-item-content span.gla-item-desc {
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     color: #A2A2A2;
     font-size: 1.6rem;
     text-align: left;
@@ -519,7 +523,7 @@ i.icon-menu {
 .grid-la-list article.gla-item .gla-item-content .gla-item-btn span {
     color: #64C2C8;
     text-transform: capitalize;
-    font-family: "cxpm-Gudea-bold", sans-serif
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif
 }
 
 .grid-la-list article.gla-item .gla-item-content h2.gla-item-title {
@@ -630,7 +634,7 @@ i.icon-menu {
         -ms-flex-order: 1;
             order: 1;
     font-size: 2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif !important;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important;
     color: #8C7971;
     position: relative;
     padding-bottom: 3rem
@@ -654,7 +658,7 @@ i.icon-menu {
 
 .chiffres-cles .item .icon-item .number span {
     font-size: 5.4rem;
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     color: #8C7971;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -697,7 +701,7 @@ i.icon-menu {
     color: #64C2C8;
     padding: 0;
     border-bottom: none;
-    font-family: "cxpm-Klavika-bold", sans-serif !important
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif !important
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-form-zone {
@@ -716,7 +720,7 @@ i.icon-menu {
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-form-zone form.main-search .esf-intro-title {
     color: #64C2C8;
     font-size: 3.2rem;
-    font-family: "cxpm-Klavika-bold", sans-serif
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-form-zone form.main-search .esf-search-line {
@@ -755,7 +759,7 @@ i.icon-menu {
     text-transform: none;
     padding: 0 5px 0 0;
     border: 1px solid #8C7971 !important;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-form-zone form.main-search .esf-search-line .form-select {
@@ -837,7 +841,7 @@ i.icon-menu {
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-form-zone form.main-search .esf-advanced-search .esf-as-header p {
     margin: 0;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
     padding-left: .5rem
 }
@@ -894,12 +898,12 @@ i.icon-menu {
     color: #fff;
     vertical-align: middle;
     font-size: 1.6rem;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha span {
     font-size: 1.8rem;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     color: #fff
 }
 
@@ -916,7 +920,7 @@ i.icon-menu {
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha ul li {
     color: #f26c4a;
     font-size: 1.8rem;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha ul li.current {
@@ -928,7 +932,7 @@ i.icon-menu {
     text-align: center;
     color: #64C2C8;
     font-size: 1.8rem;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     width: 6rem
 }
 
@@ -1057,7 +1061,7 @@ i.icon-menu {
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons .btn-primary span {
     font-size: 2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     color: #000
 }
 
@@ -1124,12 +1128,12 @@ i.icon-menu {
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-title {
     color: #6e6e6e;
-    font-family: "cxpm-Klavika-bold", sans-serif
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-item {
     color: #8C7971;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-item i {
@@ -1139,12 +1143,12 @@ i.icon-menu {
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-country {
     color: #6e6e6e;
     font-size: 2.3rem;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-txt {
     font-size: 1.5rem;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     line-height: 2.6rem;
     color: #252525
 }
@@ -1307,7 +1311,7 @@ i.icon-menu {
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: white;
     color: #8C7971 !important;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative;
     font-size: 1.6rem !important
@@ -1333,7 +1337,7 @@ i.icon-menu {
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: white;
     color: #64C2C8 !important;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative;
     font-size: 1.6rem !important
@@ -1354,7 +1358,7 @@ i.icon-menu {
     padding: 0;
     color: white;
     font-size: 5.4rem;
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     margin-bottom: 1rem
 }
 
@@ -1905,7 +1909,7 @@ article.gla-item {
     content: '#salondufromage';
     position: absolute;
     font-size: 1.2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     color: #8C7971;
     left: 16.9rem
 }
@@ -2342,7 +2346,7 @@ article.gla-item {
 
 .site-banner .inside .header-logo .header-logo-txt p span {
     font-size: 1.2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif !important
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important
 }
 
 .site-banner .inside .header-logo .header-logo-txt a.btn {
@@ -2621,7 +2625,7 @@ article.gla-item {
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc h3 {
     margin-bottom: 0;
     font-size: 2.4rem;
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     padding-left: 3rem
 }
 
@@ -2638,7 +2642,7 @@ article.gla-item {
     padding: 1.2rem 3.8rem 1.1rem 1.7rem;
     background: #8C7971;
     color: white;
-    font-family: "cxpm-Gudea-bold", sans-serif !important;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif !important;
     border-radius: .5rem;
     position: relative;
     font-size: 1.2rem;
@@ -2917,11 +2921,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic h1 {
     font-size: 4.2rem;
     line-height: 5rem;
-    font-family: "cxpm-Klavika-bold", sans-serif
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif
 }
 
 .front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic h1 span {
-    font-family: "cxpm-Klavika-light", sans-serif !important;
+    font-family: "cxpm-Klavika-light", Helvetica, Arial, sans-serif !important;
     font-weight: 100
 }
 
@@ -2931,7 +2935,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding: 1.6rem 4.4rem 1.4rem 2.2rem;
     background: #8C7971;
     color: white;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative
 }
@@ -3149,7 +3153,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
             justify-content: center;
     font-size: 4.2rem;
     color: #8C7971;
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     margin-top: 9.7rem;
     text-transform: none
 }
@@ -3170,7 +3174,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link h2 span#titre4secteurs {
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     font-size: 2.2rem;
     padding-top: 1rem
 }
@@ -3189,7 +3193,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
     padding-left: 2.2rem;
-    font-family: "cxpm-Gudea-bold", sans-serif
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link a.link-view-all:hover i::before {
@@ -3271,7 +3275,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item .gla-item-content span.gla-item-desc {
-    font-family: "cxpm-Gudea-regular", sans-serif !important;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important;
     color: #A2A2A2;
     font-size: 1.6rem;
     text-align: left;
@@ -3291,7 +3295,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item .gla-item-content p.gla-item-btn span.gla-btn-read-more {
     color: #64C2C8;
     text-transform: capitalize;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     position: relative
 }
 
@@ -3356,7 +3360,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: white;
     color: #8C7971 !important;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative;
     font-size: 1.6rem !important
@@ -3382,7 +3386,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: white;
     color: #64C2C8 !important;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative;
     font-size: 1.6rem !important
@@ -3403,7 +3407,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding: 0;
     color: white;
     font-size: 5.4rem;
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     margin-bottom: 1rem
 }
 
@@ -3503,7 +3507,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: #8C7971;
     color: white;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative;
     font-size: 1.6rem
@@ -3598,7 +3602,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: #8C7971;
     color: #fff !important;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     border-radius: .5rem;
     position: relative
 }
@@ -3638,7 +3642,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link h2 span {
     font-size: 2.2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif !important;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important;
     font-weight: 100;
     min-width: 30rem;
     padding-top: 1.5rem;
@@ -3666,7 +3670,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     color: white;
     background: none !important;
     text-decoration: underline;
-    font-family: "cxpm-Klavika-bold", sans-serif
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link a i::before {
@@ -3769,7 +3773,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item .la-item-content h2.la-item-title a {
     color: #8C7971;
     font-size: 3.2rem;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     position: relative
 }
 
@@ -4115,7 +4119,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     font-style: italic;
     line-height: 3.6rem;
     font-size: 2.16rem;
-    font-family: "cxpm-Gudea-regular", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     color: #A2A2A2 !important
 }
 
@@ -4198,13 +4202,13 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure figcaption strong {
     color: white;
     font-size: 1.2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure figcaption .ezxmltext-field p {
     color: #fff !important;
     font-size: 1.2rem;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure small {
@@ -4261,7 +4265,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-content .h3-like {
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     font-size: 2.4rem;
     color: #2A2A2A;
     margin-top: .7rem
@@ -4404,7 +4408,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     width: 94rem;
     margin: 0 auto;
     padding-bottom: 8rem;
-    font-family: "cxpm-Gudea-regular", sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p {
@@ -4713,7 +4717,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .content725834 .site-wrapper .layout-2-col .zone .block .inside .main-title-with-link h1 {
-    font-family: "cxpm-Klavika-bold", sans-serif;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     color: #64C2C8;
     font-size: 5.2rem
 }
@@ -4859,7 +4863,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .content725845 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p:nth-child(2) {
-    font-family: "cxpm-Gudea-bold", sans-serif
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif
 }
 
 .content725845 .site-wrapper .layout-2-col .zone .article-wrapper .article-content h2 {
@@ -4961,7 +4965,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .content725846 .site-wrapper .layout-2-col .zone .article-wrapper .article-content ul li u {
     color: #64C2C8;
-    font-family: "cxpm-Gudea-bold", sans-serif
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif
 }
 
 .content725849 .site-wrapper .layout-2-col .zone .article-wrapper .article-content figure {
@@ -5204,7 +5208,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .content725861 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p {
     font-size: 1.8rem;
     line-height: 2.9rem;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     margin-top: 12rem
 }
 
@@ -5273,7 +5277,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .content725864 .wrapper .zone .list-articles .inside .main-title-with-link {
     border-bottom: none;
-    font-family: "cxpm-Klavika-bold", sans-serif !important;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5641,14 +5645,14 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .error404 main .site-wrapper #zone2 .error-page .ep-intro .intro .ezxmltext-field h2 {
     margin: 0;
-    font-family: "cxpm-Gudea-regular", sans-serif !important;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important;
     font-size: 3rem;
     padding-bottom: 3.5rem
 }
 
 .error404 main .site-wrapper #zone2 .error-page .ep-intro h1 {
     margin: 0;
-    font-family: "cxpm-Gudea-regular", sans-serif !important;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important;
     font-size: 12rem;
     line-height: 13rem
 }
