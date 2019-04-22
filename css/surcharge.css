@@ -2512,7 +2512,6 @@ article.gla-item {
 .site-banner .inside #cxpmClientAccountWidget .logged .widget-text,
 .site-banner .inside #cxpmClientAccountWidget .not-logged .widget-text {
     height: 3.5rem;
-    position: absolute;
     top: -.2rem;
     left: -15.2rem;
     display: -webkit-box;
@@ -2531,6 +2530,16 @@ article.gla-item {
     width: 1.3rem;
     height: 1.4rem;
     bottom: .9rem
+}
+
+.site-banner .inside #cxpmClientAccountWidget .logged .widget-text #widgetFirstnameText,
+.site-banner .inside #cxpmClientAccountWidget .not-logged .widget-text #widgetFirstnameText {
+    margin-right: 0.5rem
+}
+
+.site-banner .inside #cxpmClientAccountWidget .logged .widget-text span.widget-logout,
+.site-banner .inside #cxpmClientAccountWidget .not-logged .widget-text span.widget-logout {
+    margin-right: 1rem
 }
 
 .site-banner .inside #cxpmClientAccountWidget .logged .widget-text span.openCapMobile a.openCapTrigger,
