@@ -1,5 +1,7 @@
 body {
-    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
 
 .site-wrapper {
@@ -37,7 +39,8 @@ body {
 }
 
 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro {
-    margin-bottom: 12.5rem
+    margin-bottom: 3rem;
+    max-width: 70rem
 }
 
 .breadcrumb-nav {
@@ -66,7 +69,7 @@ body {
 .breadcrumb-nav .inside ul li a span {
     color: #8C7971;
     font-size: 1.2rem;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     position: relative
 }
 
@@ -109,12 +112,13 @@ body {
 
 .article-title::before {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg");
+    background-size: cover;
     content: "";
     display: block;
     width: 100%;
     position: absolute;
     left: 0;
-    height: 29rem;
+    height: 70%;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat
@@ -127,14 +131,17 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column
+            flex-direction: column;
+    max-width: 94rem;
+    text-align: center
 }
 
 .article-title .inside img {
     max-width: 94rem;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
-            order: 1
+            order: 1;
+    margin-bottom: 5rem
 }
 
 .article-title .inside .at-content span.at-theme {
@@ -143,6 +150,7 @@ body {
 
 .article-title .inside .at-content h1.at-main-title {
     margin-top: 8rem;
+    margin-bottom: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -224,6 +232,14 @@ body {
             order: 2
 }
 
+.mn-item-lvl-1>.mn-link {
+    min-height: 0
+}
+
+.article-content table {
+    border-bottom: 1px solid #e3e9ea
+}
+
 h2,
 h3,
 h4,
@@ -234,8 +250,16 @@ h5 {
     position: relative
 }
 
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong {
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif !important
+}
+
 h1 {
     font-size: 5.2rem;
+    line-height: 5.5rem;
     color: #64C2C8;
     padding: 0;
     border-bottom: none;
@@ -1445,15 +1469,38 @@ i.icon-menu {
     background: none
 }
 
-ins {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background: #252525;
-    padding: 4rem
+.cxpm-advertising {
+    text-align: center;
+    background: #464646;
+    padding: 2.5rem 0 4.5rem
+}
+
+.cxpm-advertising span {
+    display: block !important;
+    font-size: 1.2rem;
+    color: white
+}
+
+.cc-cookies {
+    background-color: #f4f4f4
+}
+
+.cc-cookies .inside {
+    padding-right: 10rem
+}
+
+.cc-cookie-accept:hover {
+    background-color: #64C2C8;
+    color: white
+}
+
+a.cc-cookie-link:hover {
+    text-decoration: underline
+}
+
+[class^="btn"],
+.btn {
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
 @font-face {
@@ -1468,12 +1515,12 @@ ins {
 
 @font-face {
     font-family: 'cxpm-Gudea-bold';
-    src: url("../salon_du_fromage_2020_preprod_desktop/fonts/gudea/Gudea-Bold-webfont.ttf")
+    src: url("../salon_du_fromage_2020_preprod_desktop/fonts/gudea/Gudea-Bold-webfont.woff")
 }
 
 @font-face {
     font-family: 'cxpm-Gudea-regular';
-    src: url("../salon_du_fromage_2020_preprod_desktop/fonts/gudea/Gudea-Regular-webfont.ttf")
+    src: url("../salon_du_fromage_2020_preprod_desktop/fonts/gudea/Gudea-Regular-webfont.woff")
 }
 
 @font-face {
@@ -1892,6 +1939,240 @@ article.gla-item {
     background: #000
 }
 
+.temoignages-exposants.list-articles,
+.temoignages-visiteurs.list-articles {
+    background-image: url("../salon_du_fromage_2020_preprod_desktop/img/texture.jpg") !important;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 8.5rem 0 7.5rem 0 !important;
+    position: relative
+}
+
+.temoignages-exposants.list-articles .main-title-with-link,
+.temoignages-visiteurs.list-articles .main-title-with-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 0
+}
+
+.temoignages-exposants.list-articles .main-title-with-link .la-main-title,
+.temoignages-visiteurs.list-articles .main-title-with-link .la-main-title {
+    font-size: 3.4rem;
+    color: #64C2C8;
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
+    position: relative
+}
+
+.temoignages-exposants.list-articles .main-title-with-link .la-main-title::after,
+.temoignages-visiteurs.list-articles .main-title-with-link .la-main-title::after {
+    content: "";
+    position: absolute;
+    background: #64C2C8;
+    width: 2.2rem;
+    height: 2px;
+    bottom: -1rem;
+    left: 45%;
+    z-index: 2
+}
+
+.temoignages-exposants.list-articles .slider-content .slider-item,
+.temoignages-visiteurs.list-articles .slider-content .slider-item {
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%
+}
+
+.temoignages-exposants.list-articles .slider-content .slider-item .la-item-img,
+.temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-img {
+    border-radius: 150px;
+    margin-right: 2.5rem;
+    max-width: 18rem;
+    padding: 2.5rem;
+    background-color: white
+}
+
+.temoignages-exposants.list-articles .slider-content .slider-item .la-item-content,
+.temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 58rem
+}
+
+.temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-desc,
+.temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content .la-item-desc {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 0 0;
+    position: relative;
+    max-width: 60rem;
+    font-size: 2.2rem
+}
+
+.temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-desc::before,
+.temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content .la-item-desc::before {
+    content: "";
+    width: 4.2rem;
+    height: 3rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-title,
+.temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content .la-item-title {
+    font-size: 2.4rem;
+    color: #A2A2A2;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    position: relative;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    opacity: 0.5;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    text-align: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+.temoignages-exposants.list-articles .slider-pagin,
+.temoignages-visiteurs.list-articles .slider-pagin {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-nb,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-nb {
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 5rem
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item {
+    border-radius: 50px;
+    border: 0 none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #C6C6C6;
+    margin: 0 .5rem;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item:hover,
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item:focus,
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item.is-active,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item:hover,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item:focus,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item.is-active {
+    background-color: #64C2C8
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    max-width: calc(116rem + 10rem);
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev,
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next {
+    width: 3.6rem;
+    height: 3.6rem;
+    min-width: 3.6rem;
+    padding: 0;
+    border: 0;
+    border-radius: 100px;
+    background-color: #64C2C8;
+    background-image: url("/theme/sima2019_git_desktop/images/arrow-right.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    -webkit-transform: translateX(-5rem);
+        -ms-transform: translateX(-5rem);
+            transform: translateX(-5rem)
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev {
+    -webkit-transform: rotate(180deg) translateX(5rem);
+        -ms-transform: rotate(180deg) translateX(5rem);
+            transform: rotate(180deg) translateX(5rem)
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev:hover,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev:hover {
+    padding-right: .5rem
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next {
+    margin-left: auto
+}
+
+.temoignages-exposants.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next:hover,
+.temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next:hover {
+    padding-left: .5rem
+}
+
+.temoignages-exposants.list-articles .slider .slider-play-btn,
+.temoignages-visiteurs.list-articles .slider .slider-play-btn {
+    display: none
+}
+
 .site-banner {
     z-index: 9999;
     z-index: 10 !important
@@ -1920,7 +2201,7 @@ article.gla-item {
 
 .site-banner .inside .lang-switcher button {
     height: 3.4rem;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     position: relative;
     margin-right: 1.4rem;
     border-left: .15rem solid #E7E7E7
@@ -2184,7 +2465,7 @@ article.gla-item {
     background: #8C7971;
     color: white;
     bottom: -26px;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     font-weight: 200;
     white-space: nowrap;
     padding: 2rem 1.7rem;
@@ -2320,19 +2601,23 @@ article.gla-item {
             align-items: center
 }
 
-.site-banner .inside .header-logo .header-logo-txt p {
+.site-banner .inside .header-logo .header-logo-txt .brand {
     margin: 0;
     line-height: 1.9rem;
     color: #64C2C8;
     font-size: 2.3rem;
-    font-family: "cxpm-Gudea-bold", sans-serif;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     padding-top: 2rem;
     padding-left: 16rem;
     padding-right: 2rem;
     position: relative
 }
 
-.site-banner .inside .header-logo .header-logo-txt p::before {
+.site-banner .inside .header-logo .header-logo-txt .brand:hover {
+    color: #64C2C8
+}
+
+.site-banner .inside .header-logo .header-logo-txt .brand::before {
     content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/img/logo.png");
@@ -2344,7 +2629,7 @@ article.gla-item {
     cursor: pointer
 }
 
-.site-banner .inside .header-logo .header-logo-txt p span {
+.site-banner .inside .header-logo .header-logo-txt .brand span {
     font-size: 1.2rem;
     font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif !important
 }
@@ -2448,6 +2733,7 @@ article.gla-item {
 }
 
 .site-banner .inside nav .mn-menu-line ul.mn-menu-lvl1 li.mn-item-lvl-1 a.mn-link {
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     min-height: 0;
     color: white;
     padding: 1rem;
@@ -2542,17 +2828,18 @@ article.gla-item {
     min-height: 9rem !important
 }
 
-.site-banner.is-stuck .header-logo .header-logo-txt p {
+.site-banner.is-stuck .header-logo .header-logo-txt .brand {
     font-size: 1.9rem;
     padding-top: 1.8rem;
     padding-left: 11rem;
-    padding-right: 2rem
+    padding-right: 2rem;
+    margin-top: -5.5rem
 }
 
-.site-banner.is-stuck .header-logo .header-logo-txt p::before {
+.site-banner.is-stuck .header-logo .header-logo-txt .brand::before {
     width: 9rem;
     background-repeat: no-repeat;
-    top: 0.7rem
+    top: 1rem
 }
 
 .site-banner.is-stuck .header-logo .header-logo-txt a {
@@ -2639,7 +2926,7 @@ article.gla-item {
 }
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton {
-    padding: 1.2rem 3.8rem 1.1rem 1.7rem;
+    padding: 1.2rem 1.7rem 1.1rem 1.7rem;
     background: #8C7971;
     color: white;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif !important;
@@ -2655,19 +2942,6 @@ article.gla-item {
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover {
     color: transparent
-}
-
-.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton::after {
-    content: '';
-    position: absolute;
-    background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
-    width: .8rem;
-    height: 1rem;
-    right: 1.8rem;
-    bottom: 1.4rem;
-    -webkit-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:first-child a.bouton:hover::after {
@@ -2723,8 +2997,16 @@ article.gla-item {
     display: inline-block
 }
 
+.site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li p {
+    font-size: 1.2rem;
+    -webkit-transform: translateY(-0.8rem);
+        -ms-transform: translateY(-0.8rem);
+            transform: translateY(-0.8rem);
+    margin-left: 0.5rem
+}
+
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a {
-    padding: 0 1.8rem
+    padding: 0 1.5rem
 }
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:nth-child(3) ul li a:hover::after {
@@ -2830,38 +3112,33 @@ article.gla-item {
 
 .site-footer .inside .footer-logo {
     position: absolute;
-    top: 30rem;
+    top: 29rem;
     right: 129px;
     z-index: 999;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
 }
 
 .site-footer .inside .footer-logo p {
     font-size: 1.1rem;
     position: relative;
     margin-top: 0;
-    margin-right: 1rem
-}
-
-.site-footer .inside .footer-logo p::after {
-    content: "";
-    position: absolute;
-    background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/logo-unflux.svg");
-    width: 2.5rem;
-    height: 1.4rem;
-    bottom: .8rem;
-    left: 19rem;
-    cursor: pointer
-}
-
-.site-footer .inside .footer-logo img {
     margin-right: 1rem;
-    cursor: pointer;
-    position: absolute;
-    right: -31px;
-    bottom: 6px
+    color: #AAAAAA
+}
+
+.site-footer .inside .footer-logo .comexposium-logo {
+    width: 18rem;
+    height: auto;
+    margin-right: 2rem
+}
+
+.site-footer .inside .footer-logo .unflux-logo {
+    margin-left: 1rem
 }
 
 html[lang="fr"] section.keyfigures .figures .title::before {
@@ -2883,6 +3160,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .home-mosaic {
+    background-color: #fafafa;
+    padding: 2rem 0 5rem
+}
+
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper {
     min-height: 54rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2890,13 +3172,15 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    max-width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 150rem;
+    width: 100%;
     margin: 0 auto
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     display: -webkit-box;
@@ -2915,44 +3199,45 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    max-width: 40rem
+    max-width: 40rem;
+    margin-right: 6rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic h1 {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic h1 {
     font-size: 4.2rem;
     line-height: 5rem;
     font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic h1 span {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic h1 span {
     font-family: "cxpm-Klavika-light", Helvetica, Arial, sans-serif !important;
     font-weight: 100
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic a {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic a {
     -ms-flex-item-align: start;
         align-self: flex-start;
     padding: 1.6rem 4.4rem 1.4rem 2.2rem;
     background: #8C7971;
     color: white;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic a:hover::after {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic a:hover::after {
     right: 8.6rem !important
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic a:hover {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic a:hover {
     color: transparent
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .txt-mosaic a::after {
-    content: '';
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .txt-mosaic a::after {
+    content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
-    width: .8rem;
+    width: 0.8rem;
     height: 1rem;
     right: 2rem;
     bottom: 2rem;
@@ -2961,17 +3246,17 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1 {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-1 {
     min-height: 30.5rem;
     margin-right: 5rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(1) {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-1>div:nth-child(1) {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-1.jpg");
     background-repeat: no-repeat;
     -ms-flex-preferred-size: 50%;
@@ -2980,7 +3265,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     background-size: cover
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(2) {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-1>div:nth-child(2) {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-2.jpg");
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -2995,41 +3280,41 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     max-width: 27rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(2) div {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-1>div:nth-child(2) div {
     height: 50%
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-1>div:nth-child(2) .mosaic-txt {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-1>div:nth-child(2) .mosaic-txt {
     height: 50%;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: .9rem
+    margin-top: 0.9rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-2 {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-2 {
     min-height: 15rem;
     margin-left: 11rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-2>div {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-2>div {
     -ms-flex-preferred-size: 33.33%;
         flex-basis: 33.33%
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-2>div:nth-child(1) {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-2>div:nth-child(1) {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-3.jpg");
     background-size: cover;
     margin-top: 1rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-2>div:nth-child(2) {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-2>div:nth-child(2) {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-4.jpg");
     background-size: cover;
     margin: 1rem 1rem 0 1rem
 }
 
-.front .global-wrapper main .site-wrapper .home-mosaic .visuel-mosaic .mosaic-2>div:nth-child(3) {
+.front .global-wrapper main .site-wrapper .home-mosaic .mosaic-wrapper .visuel-mosaic .mosaic-2>div:nth-child(3) {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/mosaic/mosaic-5.jpg");
     background-size: cover;
     margin-top: 1rem
@@ -3042,14 +3327,12 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 0 auto;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-    top: 49.8rem;
-    z-index: 1 !important
+    position: relative;
+    margin-bottom: -7.7rem;
+    margin-top: -7.7rem;
+    z-index: 1
 }
 
 .front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list li.ql-item {
@@ -3066,17 +3349,23 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     -webkit-box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.5);
             box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.5);
     background-color: white;
-    padding: 2.5rem 2.5rem 2.5rem 7rem;
+    padding: 2.5rem 2.5rem 2.5rem 8.5rem;
     position: relative;
-    -webkit-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    transition: all .2s ease
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    max-width: 23rem;
+    text-align: left
 }
 
 .front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list li.ql-item a.btn-primary::after {
     content: "";
     position: absolute;
-    bottom: 1.6rem;
+    background-repeat: no-repeat;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     left: 2rem
 }
 
@@ -3090,6 +3379,10 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     text-transform: none
 }
 
+.front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list li.ql-item a.btn-primary i.icon {
+    display: none
+}
+
 .front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list li.ql-item a.btn-primary i.icon::before {
     display: none
 }
@@ -3097,22 +3390,20 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list .linkid727008 a::after {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/badge-marron.svg");
     width: 5.1rem;
-    height: 3.6rem;
-    bottom: 0
+    height: 3.6rem
 }
 
 .front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list .linkid727009 a::after {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/reception-marron.svg");
     width: 3.5rem;
     height: 3.8rem;
-    bottom: 0
+    left: 3rem !important
 }
 
 .front .global-wrapper main .site-wrapper #zone1.zone .quicklinks ul.ql-list .linkid727010 a::after {
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/liste-marron.svg");
     width: 4.3rem;
-    height: 3rem;
-    bottom: 0
+    height: 3rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2:nth-child(5) {
@@ -3123,8 +3414,12 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     position: relative;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/img/background.jpg");
     background-size: cover;
-    min-height: 102rem;
+    padding-bottom: 10rem;
     height: 100%
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside {
+    text-align: center
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link {
@@ -3132,9 +3427,16 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center
 }
 
@@ -3154,8 +3456,9 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     font-size: 4.2rem;
     color: #8C7971;
     font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
-    margin-top: 9.7rem;
-    text-transform: none
+    margin-top: 13.7rem;
+    text-transform: none;
+    font-weight: normal
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link h2::after {
@@ -3167,7 +3470,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     bottom: 5rem;
     z-index: 2;
     background: #8C7971
@@ -3177,48 +3480,6 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
     font-size: 2.2rem;
     padding-top: 1rem
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link a.link-view-all {
-    position: absolute;
-    bottom: 6.1rem;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    background-color: #8C7971;
-    color: white;
-    border-radius: .5rem;
-    padding-right: 4rem;
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
-    padding-left: 2.2rem;
-    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link a.link-view-all:hover i::before {
-    right: 7rem !important
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link a.link-view-all:hover {
-    color: transparent
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link a.link-view-all i {
-    position: relative
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .main-title-with-link a.link-view-all i::before {
-    content: '';
-    position: absolute;
-    -webkit-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
-    width: .8rem;
-    height: 1rem;
-    bottom: .2rem;
-    right: -1.6rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list {
@@ -3244,9 +3505,9 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     width: 29.6rem;
     height: 19rem;
     margin: 0 !important;
-    -webkit-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    transition: all .2s ease;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3266,7 +3527,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item .gla-item-content {
     position: relative;
     left: 0;
-    padding: 1.5rem 3rem 2.5rem;
+    padding: 4rem 4rem 7rem;
     right: 0;
     text-align: left;
     -webkit-box-flex: 1;
@@ -3299,30 +3560,57 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     position: relative
 }
 
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item .gla-item-content p.gla-item-btn span.gla-btn-read-more::before {
-    content: '';
-    position: absolute;
-    background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
-    width: .9rem;
-    height: 1.1rem;
-    right: -1.9rem;
-    bottom: .3rem
-}
-
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item .gla-item-content h2 {
     margin: 0;
     position: relative;
-    padding-bottom: .7rem
+    padding-bottom: 0.7rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside .cxp-pagination .list-grids-with-pagin .grid-la-list article.gla-item .gla-item-content h2::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     background: #8C7971;
     left: 0;
-    bottom: -.3rem
+    bottom: -0.3rem
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside a.link-view-all {
+    background-color: #8C7971;
+    color: white;
+    border-radius: 0.5rem;
+    padding-right: 4rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.2rem;
+    font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
+    margin-top: 5rem
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside a.link-view-all:hover i::before {
+    right: 7rem !important
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside a.link-view-all:hover {
+    color: transparent
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside a.link-view-all i {
+    position: relative
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .list-articles .inside a.link-view-all i::before {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
+    width: 0.8rem;
+    height: 1rem;
+    bottom: 0.2rem;
+    right: -1.6rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil {
@@ -3357,22 +3645,25 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil .container-profil:nth-child(1) a {
-    padding: 1.6rem 4rem 1.6rem 2.2rem;
+    padding: 1.2rem 4rem 1.2rem 2.2rem;
     background: white;
     color: #8C7971 !important;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative;
-    font-size: 1.6rem !important
+    font-size: 2rem !important
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil .container-profil:nth-child(1) a::after {
-    content: '';
+    content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-marron.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem;
-    bottom: 2.2rem;
+    bottom: 50%;
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
     right: 1.8rem
 }
 
@@ -3383,22 +3674,25 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil .profil-visiteur a {
-    padding: 1.6rem 4rem 1.6rem 2.2rem;
+    padding: 1.2rem 4rem 1.2rem 2.2rem;
     background: white;
     color: #64C2C8 !important;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative;
-    font-size: 1.6rem !important
+    font-size: 2rem !important
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil .profil-visiteur a::after {
-    content: '';
+    content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem;
-    bottom: 2.2rem;
+    bottom: 50%;
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
     right: 1.8rem
 }
 
@@ -3408,12 +3702,14 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     color: white;
     font-size: 5.4rem;
     font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
-    margin-bottom: 1rem
+    margin-bottom: 1.6rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil p {
     color: white;
-    font-weight: lighter
+    font-weight: lighter;
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .what-profil a {
@@ -3421,9 +3717,9 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     cursor: pointer;
     padding: 1rem;
     color: #8C7971;
-    -webkit-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    transition: all .2s ease;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     color: #8C7971 !important
 }
 
@@ -3434,12 +3730,12 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-droite {
-    padding: 17rem 0 2.5rem 0 !important
+    padding: 10.5rem 0 3.5rem 0 !important
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-droite,
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche {
-    background: grey;
+    background: white;
     padding: -0.1rem 0;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/img/texture.jpg");
     background-repeat: repeat;
@@ -3449,13 +3745,15 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-droite .inside,
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside {
-    background-color: grey;
+    background-color: white;
     max-width: 50rem;
     position: relative;
     margin: 80px auto;
     -webkit-transform: translateX(-21rem);
         -ms-transform: translateX(-21rem);
-            transform: translateX(-21rem)
+            transform: translateX(-21rem);
+    -webkit-box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.33);
+            box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.33)
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-droite .inside img,
@@ -3472,6 +3770,8 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     z-index: 1;
     position: relative;
     margin-bottom: 0;
+    font-size: 3.6rem;
+    line-height: 4.6rem;
     padding: 5rem 5rem 0 5rem !important
 }
 
@@ -3480,7 +3780,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     background: #64C2C8;
     left: 5.2rem;
     bottom: -1.5rem
@@ -3490,6 +3790,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside p {
     background: white;
     position: relative;
+    font-size: 1.6rem;
     margin: 0;
     padding: 3rem 5rem 2rem 5rem
 }
@@ -3498,8 +3799,8 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside .edito-item-btn {
     background: white;
     position: relative;
-    margin: 0;
-    padding-bottom: 5rem
+    margin: -1.5rem 0 0 0;
+    padding-bottom: 6.5rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-droite .inside .edito-item-btn a,
@@ -3508,7 +3809,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     background: #8C7971;
     color: white;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative;
     font-size: 1.6rem
 }
@@ -3525,11 +3826,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-droite .inside .edito-item-btn a::after,
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside .edito-item-btn a::after {
-    content: '';
+    content: "";
     position: absolute;
     background-repeat: no-repeat;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem;
     bottom: 1.8rem;
     right: 1.8rem;
@@ -3544,7 +3845,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     background-image: url("../salon_du_fromage_2020_preprod_desktop/img/texture.jpg");
     background-repeat: repeat;
     min-height: 70rem;
-    padding: 9rem 0 6rem 0
+    padding: 8.5rem 0 4rem 0
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside {
@@ -3579,7 +3880,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     background: #64C2C8;
     left: 5.2rem;
     bottom: -1.5rem
@@ -3601,9 +3902,9 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside .edito-item-btn a {
     padding: 1.6rem 4rem 1.6rem 2.2rem;
     background: #8C7971;
-    color: #fff !important;
+    color: white !important;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative
 }
 
@@ -3612,18 +3913,19 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .edito-img-gauche .inside .edito-item-btn a::after {
-    content: '';
+    content: "";
     position: absolute;
     background-repeat: no-repeat;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-white.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem;
     bottom: 1.8rem;
     right: 1.8rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim {
-    background: #B7ABA5
+    background: #b7aba5;
+    padding-bottom: 2rem
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link h2 {
@@ -3637,7 +3939,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link h2::after {
-    background-color: #fff !important
+    background-color: white !important
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link h2 span {
@@ -3660,7 +3962,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link h2 span::after {
-    background-color: #fff !important;
+    background-color: white !important;
     position: absolute;
     top: 0;
     top: 4.7rem !important
@@ -3678,96 +3980,79 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .main-title-with-link a:hover {
-    color: #fff !important
+    color: white !important
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item {
     border: 0;
     margin: 0;
-    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: -0.1rem 0;
-    padding: 17rem 0 7rem 0;
+    padding: 0;
     max-width: 50rem;
     position: relative;
-    margin: 0 auto;
+    margin: 20rem auto;
     -webkit-transform: translateX(-21rem);
         -ms-transform: translateX(-21rem);
             transform: translateX(-21rem)
 }
 
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(1) {
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:first-child {
+    margin-top: 12rem
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(odd) {
     -webkit-transform: translateX(24rem);
         -ms-transform: translateX(24rem);
             transform: translateX(24rem)
 }
 
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(1) img {
-    bottom: 0;
-    position: absolute;
-    left: auto;
-    right: 80%;
-    z-index: 0
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(1) .la-item-content {
-    z-index: 999
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(2) {
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(even) {
     -webkit-transform: translateX(-18rem);
         -ms-transform: translateX(-18rem);
             transform: translateX(-18rem)
 }
 
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(even) .la-item-content {
+    text-align: right
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(1) img {
+    right: 80%
+}
+
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(2) img {
-    bottom: 0;
-    position: absolute;
-    left: auto;
-    left: 86%;
-    z-index: 0;
-    margin: 0
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(2) .la-item-content {
-    z-index: 999
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(3) {
-    -webkit-transform: translateX(24rem);
-        -ms-transform: translateX(24rem);
-            transform: translateX(24rem);
-    margin-bottom: 20rem
+    left: 86%
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(3) img {
-    bottom: 0;
-    position: absolute;
-    left: auto;
-    right: 78%;
-    z-index: 0
-}
-
-.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item:nth-child(3) .la-item-content {
-    z-index: 999
+    right: 78%
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item img {
-    bottom: 40%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     position: absolute;
+    left: auto;
     z-index: 0
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item .la-item-content {
     background: white;
     max-width: 49rem;
-    padding: 3rem;
-    height: 100%
+    padding: 5rem 5.5rem;
+    text-align: left;
+    height: 100%;
+    z-index: 999;
+    position: relative;
+    -webkit-box-shadow: 0 15px 35px -25px rgba(37, 37, 37, 0.79);
+            box-shadow: 0 15px 35px -25px rgba(37, 37, 37, 0.79)
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside .cxp-pagination .la-list article.la-item .la-item-content h2.la-item-title a {
@@ -3791,9 +4076,9 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     background: #8C7971;
-    left: .2rem;
+    left: 0.2rem;
     bottom: -1.1rem
 }
 
@@ -3814,10 +4099,64 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem;
     right: -2rem;
     bottom: 0.3rem
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside a.link-view-all {
+    font-size: 2.2rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: transparent;
+    margin: 0 auto 0;
+    -webkit-transform: translateY(-9rem);
+        -ms-transform: translateY(-9rem);
+            transform: translateY(-9rem);
+    font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside a.link-view-all::after {
+    content: "";
+    display: block;
+    width: calc(100% - 6.8rem);
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 2.8rem;
+    bottom: 2rem
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside a.link-view-all:hover {
+    color: white
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside a.link-view-all:hover .icon::before {
+    right: 0.5rem !important
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside a.link-view-all .icon {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1
+}
+
+.front .global-wrapper main .site-wrapper .layout-2-col #zone2 .programme-anim .inside a.link-view-all .icon::before {
+    width: 0.9rem;
+    height: 1.2rem;
+    bottom: -5px;
+    right: 1rem;
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: center
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent {
@@ -3845,7 +4184,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     background: #64C2C8;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -3855,7 +4194,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent p {
-    color: #A2A2A2;
+    color: #a2a2a2;
     font-size: 2.2rem;
     max-width: 58rem;
     text-align: center;
@@ -3865,7 +4204,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent em {
-    color: #C1C1C1;
+    color: #c1c1c1;
     font-size: 1.6rem;
     font-weight: 900 !important;
     padding-bottom: 8.5rem;
@@ -3874,7 +4213,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .visiteurs-temoignent em::after {
-    content: '';
+    content: "";
     background-image: url("/salon_du_fromage_2020_preprod_desktop/img/citations-points.svg");
     width: 5.8rem;
     height: 1rem;
@@ -3919,7 +4258,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .partner .box-dark .inside .main-title-with-link a.link-view-all {
     font-size: 1.6rem;
-    color: #A2A2A2;
+    color: #a2a2a2;
     text-decoration: underline;
     -webkit-transform: initial;
         -ms-transform: initial;
@@ -3972,10 +4311,10 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn button.slider-btn-prev::before {
-    content: '';
+    content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-marron.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem;
     -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
@@ -3991,10 +4330,10 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper .layout-2-col #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn button.slider-btn-next::before {
-    content: '';
+    content: "";
     position: absolute;
     background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-marron.svg");
-    width: .9rem;
+    width: 0.9rem;
     height: 1.1rem
 }
 
@@ -4006,7 +4345,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 }
 
 .front .global-wrapper main .site-wrapper #zone4 .edito .inside h2 {
-    max-width: 38%;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 0;
     padding: 0;
@@ -4019,7 +4358,7 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     content: "";
     position: absolute;
     width: 2.2rem;
-    height: .2rem;
+    height: 0.2rem;
     background: #64C2C8;
     bottom: 2.5rem;
     left: 4px
@@ -4034,87 +4373,23 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     font-size: 1.7rem !important
 }
 
-.content725922 #main .site-wrapper,
-.content725922 #main .wrapper {
-    max-width: inherit
-}
-
-.content725922 #main .site-wrapper.wrapper {
-    padding: 0;
-    margin-bottom: 2rem;
-    background: inherit;
-    -webkit-box-shadow: none;
-            box-shadow: none
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col h1 {
-    font-size: 5.2rem;
-    color: #64C2C8;
-    padding: 0;
-    border-bottom: none
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper span.topic_innovation {
+#main .article-wrapper span.topic_innovation {
     display: none
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    z-index: 999;
-    position: relative;
-    z-index: 0
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-title::before {
-    background-image: url("/salon_du_fromage_2020_preprod_desktop/img/background.jpg");
-    content: "";
-    display: block;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    height: 29rem;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-title .inside .at-content span.at-theme {
-    background: #8C7971
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-intro {
-    width: 65%;
-    margin: 0 auto
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-intro p {
-    font-size: 1.8rem
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content {
-    width: 65%;
-    margin: 0 auto;
-    margin-top: 10rem
-}
-
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure.center {
+#main .article-wrapper .article-content figure.center {
     position: relative;
     width: 100% !important;
     width: 100%;
     text-align: center
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content a.externe {
+#main .article-wrapper .article-content a.externe {
     color: #64C2C8;
     text-decoration: underline
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content blockquote p {
+#main .article-wrapper .article-content blockquote p {
     border: none;
     font-style: italic;
     line-height: 3.6rem;
@@ -4123,15 +4398,15 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     color: #A2A2A2 !important
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content blockquote i {
+#main .article-wrapper .article-content blockquote i {
     display: none
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content ul li {
+#main .article-wrapper .article-content ul li {
     position: relative
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content ul li::before {
+#main .article-wrapper .article-content ul li::before {
     content: "›";
     position: absolute;
     border: 0;
@@ -4149,44 +4424,52 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
             transform: rotate(90deg)
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content h4 strong {
+#main .article-wrapper .article-content h2,
+#main .article-wrapper .article-content h3,
+#main .article-wrapper .article-content h4,
+#main .article-wrapper .article-content h5,
+#main .article-wrapper .article-content h6 {
+    margin-top: 4rem
+}
+
+#main .article-wrapper .article-content h4 strong {
     color: #64C2C8
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tr:nth-child(1) {
+#main .article-wrapper .article-content table tr:nth-child(1) {
     background: #64C2C8
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tr:nth-child(1) p {
+#main .article-wrapper .article-content table tr:nth-child(1) p {
     color: white;
     text-align: center
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tr:nth-child(1) td {
+#main .article-wrapper .article-content table tr:nth-child(1) td {
     border: none
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tr td {
+#main .article-wrapper .article-content table tr td {
     border-bottom: 0 none;
     border-top: 0 none;
     text-align: center
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content h3 {
-    margin: 2rem 0
+#main .article-wrapper .article-content h3 {
+    margin: 4rem 0 1rem 0
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content strong {
+#main .article-wrapper .article-content strong {
     font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
     color: #252525
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure {
+#main .article-wrapper .article-content figure {
     position: relative;
     margin: 3rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure figcaption {
+#main .article-wrapper .article-content figure figcaption {
     padding: 0.5rem;
     line-height: 1.2;
     font-style: italic;
@@ -4199,19 +4482,19 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     text-align: center
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure figcaption strong {
+#main .article-wrapper .article-content figure figcaption strong {
     color: white;
     font-size: 1.2rem;
     font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure figcaption .ezxmltext-field p {
+#main .article-wrapper .article-content figure figcaption .ezxmltext-field p {
     color: #fff !important;
     font-size: 1.2rem;
     font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content figure small {
+#main .article-wrapper .article-content figure small {
     position: absolute;
     bottom: -2rem;
     left: 0;
@@ -4221,17 +4504,25 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     display: none
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content blockquote {
+#main .article-wrapper .article-content blockquote {
     background: inherit;
     background-image: url("../img/texture.jpg");
     background-repeat: repeat
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content blockquote p {
+#main .article-wrapper .article-content blockquote p {
     color: black
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item {
+#main .article-wrapper .article-content .cl-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+}
+
+#main .article-wrapper .article-content .cl-content .cl-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4239,13 +4530,14 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
         -ms-flex-align: center;
             align-items: center;
     background: white;
-    border: .1rem solid #E2E2E2;
+    border: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2 !important;
     position: relative;
     padding: 1.6rem 2.5rem 3.7rem !important;
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    max-width: 70rem;
-    margin: 0 auto;
+    -ms-flex-preferred-size: 31%;
+        flex-basis: 31%;
+    max-width: 100%;
+    margin: 0 auto 2rem;
     border-bottom: none;
     display: flex;
     -webkit-box-orient: vertical;
@@ -4254,49 +4546,49 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
             flex-direction: column
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item>* {
+#main .article-wrapper .article-content .cl-content .cl-item>* {
     padding: 0
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-illust img {
+#main .article-wrapper .article-content .cl-content .cl-item .cl-item-illust img {
     min-width: 15rem;
     min-height: 15rem;
     width: 100%
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-content .h3-like {
+#main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .h3-like {
     font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     font-size: 2.4rem;
     color: #2A2A2A;
     margin-top: .7rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
+#main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
     font-size: 1.6rem;
     color: #64C2C8
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email {
+#main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email {
     color: #A2A2A2;
     font-size: 1.4rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email a {
+#main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email a {
     color: #A2A2A2;
     font-size: 1.4rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
+#main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
     color: #A2A2A2;
     font-size: 1.4rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .focus1 {
+#main .article-wrapper .article-content .focus1 {
     padding-bottom: 1rem;
     padding-top: 3rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .focus1 a.lien1 {
+#main .article-wrapper .article-content .focus1 a.lien1 {
     color: white;
     padding: 1.8rem 2.8rem;
     text-decoration: none;
@@ -4305,7 +4597,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     border-radius: .5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .focus1 a.externe {
+#main .article-wrapper .article-content .focus1 a.lien1:hover {
+    background-color: #41b1b8
+}
+
+#main .article-wrapper .article-content .focus1 a.externe {
     color: white;
     padding: 1.8rem 2.8rem;
     text-decoration: none;
@@ -4314,30 +4610,38 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     border-radius: .5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .focus2 {
+#main .article-wrapper .article-content .focus1 a.externe:hover {
+    background-color: #70615a
+}
+
+#main .article-wrapper .article-content .focus2 {
     padding-top: 2.5rem;
     -webkit-padding-after: 1.5rem;
             padding-block-end: 1.5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .focus2 a.lien2,
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content .focus2 a.externe {
+#main .article-wrapper .article-content .focus2 a.lien2,
+#main .article-wrapper .article-content .focus2 a.externe {
     padding: 1.8rem 2.8rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: black;
     border: 3px solid #e4e4e4;
-    text-transform: uppercase;
     font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
     background-color: transparent;
     text-decoration: none;
     border-radius: .5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content p.style3 {
+#main .article-wrapper .article-content .focus2 a.lien2:hover,
+#main .article-wrapper .article-content .focus2 a.externe:hover {
+    border-color: #41b1b8
+}
+
+#main .article-wrapper .article-content p.style3 {
     margin-bottom: 1.5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content p.style3 a.lien4.zip {
+#main .article-wrapper .article-content p.style3 a.lien4.zip {
     padding: 1.4rem 2.8rem;
     font-size: 1.3rem;
     color: gray;
@@ -4355,11 +4659,15 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     border-radius: .5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content p.style4 {
+#main .article-wrapper .article-content p.style3 a.lien4.zip:hover {
+    background-color: #70615a
+}
+
+#main .article-wrapper .article-content p.style4 {
     padding-top: 2.5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content p.style4 a.lien4 {
+#main .article-wrapper .article-content p.style4 a.lien4 {
     padding: 1.8rem 2.8rem;
     font-size: 1.3rem;
     color: black;
@@ -4371,7 +4679,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     border-radius: .5rem
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content p.important1 {
+#main .article-wrapper .article-content p.style4 a.lien4:hover {
+    border-color: #70615a
+}
+
+#main .article-wrapper .article-content p.important1 {
     background: #f5f5f5 !important;
     border-bottom: 3px solid #64C2C8 !important;
     padding: 2rem 3rem;
@@ -4379,12 +4691,12 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     font-size: 1.4rem;
     text-align: right;
     color: #575757;
-    padding: 2rem 0rem 0rem 0rem !important;
+    padding: 0rem 2rem 0rem 2rem !important;
     opacity: 0.7;
     font-style: normal
 }
 
-.content725922 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-navigation {
+#main .article-wrapper .article-navigation {
     width: 65%;
     margin: 0 auto
 }
@@ -4402,18 +4714,6 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-title .inside .at-content ul.at-tag {
     border-top: none;
     padding: 0
-}
-
-.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro {
-    width: 94rem;
-    margin: 0 auto;
-    padding-bottom: 8rem;
-    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
-}
-
-.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-intro p {
-    margin: 0;
-    color: #A2A2A2
 }
 
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content {
@@ -4797,17 +5097,19 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
             box-shadow: none
 }
 
+.content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table {
+    border-bottom: 0 none !important
+}
+
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
 }
 
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr {
@@ -4818,8 +5120,15 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 57.9rem;
-    padding: 3rem
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+    min-width: 49%;
+    max-width: 49%;
+    padding: 2rem;
+    background-color: #F3F3F3 !important;
+    -webkit-box-shadow: 0 3.5rem 3.5rem -4.5rem rgba(37, 37, 37, 0.73);
+            box-shadow: 0 3.5rem 3.5rem -4.5rem rgba(37, 37, 37, 0.73);
+    margin-bottom: 4rem
 }
 
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td {
@@ -4830,6 +5139,11 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center
+}
+
+.content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td p {
+    color: #252525 !important;
+    text-align: left
 }
 
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td:nth-child(1) figure img {
