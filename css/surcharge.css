@@ -2512,8 +2512,7 @@ article.gla-item {
 .site-banner .inside #cxpmClientAccountWidget .logged .widget-text,
 .site-banner .inside #cxpmClientAccountWidget .not-logged .widget-text {
     height: 3.5rem;
-    top: -.2rem;
-    left: -15.2rem;
+    margin-top: -0.3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
