@@ -67,10 +67,6 @@ body b {
     display: none
 }
 
-.breadcrumb-nav .inside ul li:nth-child(2) span::after {
-    left: 4.6rem
-}
-
 .breadcrumb-nav .inside ul li a span {
     color: #8C7971;
     font-size: 1.2rem;
@@ -82,7 +78,7 @@ body b {
     position: absolute;
     content: '/';
     color: #8C7971;
-    left: 4rem
+    right: -1.3rem
 }
 
 .breadcrumb-nav .inside ul i {
@@ -196,8 +192,8 @@ body b {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 27rem;
-    overflow: hidden
+    height: auto;
+    overflow: visible
 }
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content,
@@ -2960,7 +2956,10 @@ article.gla-item {
     border-radius: .5rem;
     position: relative;
     font-size: 1.2rem;
-    margin-top: 2.5rem
+    margin-top: 2.5rem;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out
 }
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover::after {
@@ -2968,7 +2967,10 @@ article.gla-item {
 }
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc a.bouton:hover {
-    color: transparent
+    color: white;
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03)
 }
 
 .site-footer .inside .prefooter .prefooter-wrapper .prefooter-bloc:first-child a.bouton:hover::after {
@@ -4442,7 +4444,7 @@ body:not(.content725839) #main .article-wrapper .article-content ul li::before {
     height: 12px;
     width: 12px;
     background-repeat: no-repeat;
-    bottom: .8rem;
+    top: -0.5rem;
     -webkit-transform: inherit;
         -ms-transform: inherit;
             transform: inherit
@@ -4485,7 +4487,7 @@ body:not(.content725839) #main .article-wrapper .article-content h3 {
 
 body:not(.content725839) #main .article-wrapper .article-content strong {
     font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
-    color: #252525
+    color: #8C7971
 }
 
 body:not(.content725839) #main .article-wrapper .article-content figure {
@@ -4722,7 +4724,7 @@ body:not(.content725839) #main .article-wrapper .article-content p.important1 {
 
 body:not(.content725839) #main .article-wrapper .article-navigation {
     width: 65%;
-    margin: 0 auto
+    margin: 0 auto 5rem
 }
 
 .content725839 {
@@ -5098,16 +5100,19 @@ body:not(.content725839) #main .article-wrapper .article-navigation {
     width: 7rem
 }
 
+.content726180 #main .site-wrapper.wrapper,
 .content725842 #main .site-wrapper.wrapper {
     background: none;
     -webkit-box-shadow: none;
             box-shadow: none
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table {
     border-bottom: 0 none !important
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5119,6 +5124,7 @@ body:not(.content725839) #main .article-wrapper .article-navigation {
             justify-content: space-between
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5138,6 +5144,7 @@ body:not(.content725839) #main .article-wrapper .article-navigation {
     margin-bottom: 4rem
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td {
     border: 0;
     display: -webkit-box;
@@ -5148,19 +5155,122 @@ body:not(.content725839) #main .article-wrapper .article-navigation {
             justify-content: center
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td p,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td p {
     color: #252525 !important;
     text-align: left
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td:nth-child(1) figure img,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td:nth-child(1) figure img {
     width: 22rem;
     height: auto
 }
 
+.content726180 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td:nth-child(2) p,
 .content725842 #main .site-wrapper.wrapper .layout-2-col .zone .article-wrapper .article-content table tbody tr td:nth-child(2) p {
     font-size: 1.6rem;
     padding: 2rem
+}
+
+.partner-list::before {
+    background-image: url("../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg");
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20rem;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.partner-list h1 {
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    margin-bottom: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    position: relative
+}
+
+.partner-list .pl-main-content {
+    max-width: 94rem;
+    margin: 0 auto
+}
+
+.partner-list .pl-item-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+
+.partner-list .pl-item-group .pl-item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+    min-width: 49%;
+    max-width: 49%;
+    padding: 3rem 5rem 9rem;
+    background-color: #F3F3F3 !important;
+    -webkit-box-shadow: 0 3.5rem 3.5rem -4.5rem rgba(37, 37, 37, 0.73);
+            box-shadow: 0 3.5rem 3.5rem -4.5rem rgba(37, 37, 37, 0.73);
+    margin-bottom: 4rem
+}
+
+.partner-list .pl-item-group .pl-item p {
+    font-size: 1.6rem;
+    color: #252525
+}
+
+.partner-list .pl-item-group .pl-item .pl-item-content {
+    width: 100%
+}
+
+.partner-list .pl-item-group .pl-item img {
+    margin: 0 auto 3rem;
+    padding: 0
+}
+
+.partner-list .pl-item-group .pl-item .pl-item-read-more {
+    position: absolute;
+    right: 5rem;
+    bottom: 3rem
+}
+
+.partner-list .pl-item-group .pl-item .pl-item-read-more a {
+    font-size: 1.6rem;
+    color: #64C2C8;
+    position: relative
+}
+
+.partner-list .pl-item-group .pl-item .pl-item-read-more a::after {
+    content: '';
+    position: absolute;
+    background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
+    width: .9rem;
+    height: 1.1rem;
+    right: -1.9rem;
+    bottom: 0.4rem
 }
 
 .content725841 .site-wrapper {
