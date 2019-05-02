@@ -172,6 +172,10 @@ a {
     display: none
 }
 
+td {
+    margin-top: 2rem
+}
+
 .article-content table tbody tr:nth-child(odd) {
     background-color: transparent
 }
@@ -1693,6 +1697,10 @@ li {
     padding: 0;
     max-width: inherit;
     margin: 0
+}
+
+.tt-dropdown-menu {
+    display: none !important
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-more-link .icon-catal,
@@ -4667,27 +4675,23 @@ html[lang="fr"] body:not(.front) #zone1 .main-navigation .mn-menu-line .mn-menu 
     font-size: 1.7rem !important
 }
 
-body:not(.content725878) #main .article-wrapper span.topic_innovation,
-body:not(.content725839) #main .article-wrapper span.topic_innovation {
+body:not(.content725839):not(.content725878) #main .article-wrapper span.topic_innovation {
     display: none
 }
 
-body:not(.content725878) #main .article-wrapper .article-content figure.center,
-body:not(.content725839) #main .article-wrapper .article-content figure.center {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content figure.center {
     position: relative;
     width: 100% !important;
     width: 100%;
     text-align: center
 }
 
-body:not(.content725878) #main .article-wrapper .article-content a.externe,
-body:not(.content725839) #main .article-wrapper .article-content a.externe {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content a.externe {
     color: #64C2C8;
     text-decoration: underline
 }
 
-body:not(.content725878) #main .article-wrapper .article-content blockquote p,
-body:not(.content725839) #main .article-wrapper .article-content blockquote p {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content blockquote p {
     border: none;
     font-style: italic;
     line-height: 3.6rem;
@@ -4696,18 +4700,15 @@ body:not(.content725839) #main .article-wrapper .article-content blockquote p {
     color: #A2A2A2 !important
 }
 
-body:not(.content725878) #main .article-wrapper .article-content blockquote i,
-body:not(.content725839) #main .article-wrapper .article-content blockquote i {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content blockquote i {
     display: none
 }
 
-body:not(.content725878) #main .article-wrapper .article-content ul li,
-body:not(.content725839) #main .article-wrapper .article-content ul li {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content ul li {
     position: relative
 }
 
-body:not(.content725878) #main .article-wrapper .article-content ul li::before,
-body:not(.content725839) #main .article-wrapper .article-content ul li::before {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content ul li::before {
     background: white;
     content: '';
     position: absolute;
@@ -4721,66 +4722,52 @@ body:not(.content725839) #main .article-wrapper .article-content ul li::before {
             transform: inherit
 }
 
-body:not(.content725878) #main .article-wrapper .article-content h2,
-body:not(.content725878) #main .article-wrapper .article-content h3,
-body:not(.content725878) #main .article-wrapper .article-content h4,
-body:not(.content725878) #main .article-wrapper .article-content h5,
-body:not(.content725878) #main .article-wrapper .article-content h6,
-body:not(.content725839) #main .article-wrapper .article-content h2,
-body:not(.content725839) #main .article-wrapper .article-content h3,
-body:not(.content725839) #main .article-wrapper .article-content h4,
-body:not(.content725839) #main .article-wrapper .article-content h5,
-body:not(.content725839) #main .article-wrapper .article-content h6 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h2,
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h3,
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h4,
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h5,
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h6 {
     margin-top: 4rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content h4 strong,
-body:not(.content725839) #main .article-wrapper .article-content h4 strong {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h4 strong {
     color: #64C2C8
 }
 
-body:not(.content725878) #main .article-wrapper .article-content table tr:nth-child(1),
-body:not(.content725839) #main .article-wrapper .article-content table tr:nth-child(1) {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content table tr:nth-child(1) {
     background: #64C2C8
 }
 
-body:not(.content725878) #main .article-wrapper .article-content table tr:nth-child(1) p,
-body:not(.content725839) #main .article-wrapper .article-content table tr:nth-child(1) p {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content table tr:nth-child(1) p {
     color: white;
     text-align: center
 }
 
-body:not(.content725878) #main .article-wrapper .article-content table tr:nth-child(1) td,
-body:not(.content725839) #main .article-wrapper .article-content table tr:nth-child(1) td {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content table tr:nth-child(1) td {
     border: none
 }
 
-body:not(.content725878) #main .article-wrapper .article-content table tr td,
-body:not(.content725839) #main .article-wrapper .article-content table tr td {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content table tr td {
     border-bottom: 0 none;
     border-top: 0 none;
     text-align: center
 }
 
-body:not(.content725878) #main .article-wrapper .article-content h3,
-body:not(.content725839) #main .article-wrapper .article-content h3 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content h3 {
     margin: 4rem 0 1rem 0
 }
 
-body:not(.content725878) #main .article-wrapper .article-content strong,
-body:not(.content725839) #main .article-wrapper .article-content strong {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content strong {
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif;
     color: #8C7971
 }
 
-body:not(.content725878) #main .article-wrapper .article-content figure,
-body:not(.content725839) #main .article-wrapper .article-content figure {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content figure {
     position: relative;
     margin: 3rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content figure figcaption,
-body:not(.content725839) #main .article-wrapper .article-content figure figcaption {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content figure figcaption {
     padding: 0.5rem;
     line-height: 1.2;
     font-style: italic;
@@ -4793,22 +4780,19 @@ body:not(.content725839) #main .article-wrapper .article-content figure figcapti
     text-align: center
 }
 
-body:not(.content725878) #main .article-wrapper .article-content figure figcaption strong,
-body:not(.content725839) #main .article-wrapper .article-content figure figcaption strong {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content figure figcaption strong {
     color: white;
     font-size: 1.2rem;
     font-family: "cxpm-Gudea-bold", Helvetica, Arial, sans-serif
 }
 
-body:not(.content725878) #main .article-wrapper .article-content figure figcaption .ezxmltext-field p,
-body:not(.content725839) #main .article-wrapper .article-content figure figcaption .ezxmltext-field p {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content figure figcaption .ezxmltext-field p {
     color: #fff !important;
     font-size: 1.2rem;
     font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif
 }
 
-body:not(.content725878) #main .article-wrapper .article-content figure small,
-body:not(.content725839) #main .article-wrapper .article-content figure small {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content figure small {
     position: absolute;
     bottom: -2rem;
     left: 0;
@@ -4818,20 +4802,17 @@ body:not(.content725839) #main .article-wrapper .article-content figure small {
     display: none
 }
 
-body:not(.content725878) #main .article-wrapper .article-content blockquote,
-body:not(.content725839) #main .article-wrapper .article-content blockquote {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content blockquote {
     background: inherit;
     background-image: url("../img/texture.jpg");
     background-repeat: repeat
 }
 
-body:not(.content725878) #main .article-wrapper .article-content blockquote p,
-body:not(.content725839) #main .article-wrapper .article-content blockquote p {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content blockquote p {
     color: black
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4839,8 +4820,7 @@ body:not(.content725839) #main .article-wrapper .article-content .cl-content {
         flex-wrap: wrap
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4864,58 +4844,49 @@ body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl
             flex-direction: column
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item>*,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item>* {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item>* {
     padding: 0
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-illust img,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-illust img {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-illust img {
     min-width: 15rem;
     min-height: 15rem;
     width: 100%
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .h3-like,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .h3-like {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .h3-like {
     font-family: "cxpm-Klavika-bold", Helvetica, Arial, sans-serif;
     font-size: 2.4rem;
     color: #2A2A2A;
     margin-top: .7rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
     font-size: 1.6rem;
     color: #64C2C8
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email {
     color: #A2A2A2;
     font-size: 1.4rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email a,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email a {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-email a {
     color: #A2A2A2;
     font-size: 1.4rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-phone,
-body:not(.content725839) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
     color: #A2A2A2;
     font-size: 1.4rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus1,
-body:not(.content725839) #main .article-wrapper .article-content .focus1 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus1 {
     padding-bottom: 1rem;
     padding-top: 3rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus1 a.lien1,
-body:not(.content725839) #main .article-wrapper .article-content .focus1 a.lien1 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus1 a.lien1 {
     color: white;
     padding: 1.8rem 2.8rem;
     text-decoration: none;
@@ -4924,13 +4895,11 @@ body:not(.content725839) #main .article-wrapper .article-content .focus1 a.lien1
     border-radius: .5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus1 a.lien1:hover,
-body:not(.content725839) #main .article-wrapper .article-content .focus1 a.lien1:hover {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus1 a.lien1:hover {
     background-color: #41b1b8
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus1 a.externe,
-body:not(.content725839) #main .article-wrapper .article-content .focus1 a.externe {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus1 a.externe {
     color: white;
     padding: 1.8rem 2.8rem;
     text-decoration: none;
@@ -4939,22 +4908,18 @@ body:not(.content725839) #main .article-wrapper .article-content .focus1 a.exter
     border-radius: .5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus1 a.externe:hover,
-body:not(.content725839) #main .article-wrapper .article-content .focus1 a.externe:hover {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus1 a.externe:hover {
     background-color: #70615a
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus2,
-body:not(.content725839) #main .article-wrapper .article-content .focus2 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus2 {
     padding-top: 2.5rem;
     -webkit-padding-after: 1.5rem;
             padding-block-end: 1.5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus2 a.lien2,
-body:not(.content725878) #main .article-wrapper .article-content .focus2 a.externe,
-body:not(.content725839) #main .article-wrapper .article-content .focus2 a.lien2,
-body:not(.content725839) #main .article-wrapper .article-content .focus2 a.externe {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus2 a.lien2,
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus2 a.externe {
     padding: 1.8rem 2.8rem;
     font-size: 1.4rem;
     color: black;
@@ -4965,20 +4930,16 @@ body:not(.content725839) #main .article-wrapper .article-content .focus2 a.exter
     border-radius: .5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content .focus2 a.lien2:hover,
-body:not(.content725878) #main .article-wrapper .article-content .focus2 a.externe:hover,
-body:not(.content725839) #main .article-wrapper .article-content .focus2 a.lien2:hover,
-body:not(.content725839) #main .article-wrapper .article-content .focus2 a.externe:hover {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus2 a.lien2:hover,
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content .focus2 a.externe:hover {
     border-color: #41b1b8
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.style3,
-body:not(.content725839) #main .article-wrapper .article-content p.style3 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.style3 {
     margin-bottom: 1.5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.style3 a.lien4.zip,
-body:not(.content725839) #main .article-wrapper .article-content p.style3 a.lien4.zip {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.style3 a.lien4.zip {
     padding: 1.4rem 2.8rem;
     font-size: 1.3rem;
     color: gray;
@@ -4996,18 +4957,15 @@ body:not(.content725839) #main .article-wrapper .article-content p.style3 a.lien
     border-radius: .5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.style3 a.lien4.zip:hover,
-body:not(.content725839) #main .article-wrapper .article-content p.style3 a.lien4.zip:hover {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.style3 a.lien4.zip:hover {
     background-color: #70615a
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.style4,
-body:not(.content725839) #main .article-wrapper .article-content p.style4 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.style4 {
     padding-top: 2.5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.style4 a.lien4,
-body:not(.content725839) #main .article-wrapper .article-content p.style4 a.lien4 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.style4 a.lien4 {
     padding: 1.8rem 2.8rem;
     font-size: 1.3rem;
     color: black;
@@ -5019,13 +4977,11 @@ body:not(.content725839) #main .article-wrapper .article-content p.style4 a.lien
     border-radius: .5rem
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.style4 a.lien4:hover,
-body:not(.content725839) #main .article-wrapper .article-content p.style4 a.lien4:hover {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.style4 a.lien4:hover {
     border-color: #70615a
 }
 
-body:not(.content725878) #main .article-wrapper .article-content p.important1,
-body:not(.content725839) #main .article-wrapper .article-content p.important1 {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-content p.important1 {
     background: #f5f5f5 !important;
     border-bottom: 3px solid #64C2C8 !important;
     padding: 2rem 3rem;
@@ -5038,8 +4994,7 @@ body:not(.content725839) #main .article-wrapper .article-content p.important1 {
     font-style: normal
 }
 
-body:not(.content725878) #main .article-wrapper .article-navigation,
-body:not(.content725839) #main .article-wrapper .article-navigation {
+body:not(.content725839):not(.content725878) #main .article-wrapper .article-navigation {
     width: 65%;
     margin: 0 auto 5rem
 }
@@ -5767,69 +5722,6 @@ body:not(.content725839) #main .article-wrapper .article-navigation {
 .content725851 .article-content figure strong img {
     height: auto;
     width: auto !important
-}
-
-.content725878 .article-content ul {
-    padding-left: 0
-}
-
-.content725878 .article-content table tbody tr td {
-    border: none;
-    background: transparent
-}
-
-.content725878 .article-content table tbody tr:nth-child(1) td {
-    background: transparent
-}
-
-.content725878 .article-content table tbody tr:nth-child(1) td p {
-    color: #A2A2A2
-}
-
-.content725878 .article-content table tbody tr:nth-child(1) td p.txtcenter {
-    color: #8C7971;
-    margin: 0;
-    text-align: left
-}
-
-.content725878 .article-content table tbody tr:nth-child(2) td p {
-    color: #A2A2A2
-}
-
-.content725878 .article-content table tbody tr:nth-child(2) td p.txtcenter {
-    color: #8C7971;
-    margin: 0;
-    text-align: left
-}
-
-.content725878 .article-content table tbody tr:nth-child(3) td p {
-    color: #A2A2A2
-}
-
-.content725878 .article-content table tbody tr:nth-child(3) td p.txtcenter {
-    color: #8C7971;
-    margin: 0;
-    text-align: left
-}
-
-.content725878 .article-content table tbody tr:nth-child(4) td p {
-    color: #A2A2A2
-}
-
-.content725878 .article-content table tbody tr:nth-child(4) td p.txtcenter {
-    color: #8C7971;
-    margin: 0;
-    text-align: left
-}
-
-.content725878 .article-content table tbody tr:nth-child(5) td p {
-    color: #A2A2A2
-}
-
-.content725878 .article-content table tbody tr:nth-child(5) td p.txtcenter {
-    color: #8C7971;
-    margin: 0;
-    text-align: left
 }
 
 .content725879 figure img {
