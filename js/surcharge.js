@@ -63,9 +63,7 @@
           $('#main').addClass('loaded');
         }).on('load scroll', function(){
           var winST = $win.scrollTop();
-      
-          animateElement(winST);
-        });
+              });
       }
 
   }
