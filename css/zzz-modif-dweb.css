@@ -9,3 +9,10 @@ html:lang(en) .site-banner .inside .header-logo .header-logo-txt .brand::before 
     background-size: 100%;
     cursor: pointer;
 }
+
+html:lang(en) .site-banner.is-stuck .header-logo .header-logo-txt .brand::before {
+    width: 9rem !important;
+    background-repeat: no-repeat;
+    top: 1rem;
+    background-position: center;
+}
