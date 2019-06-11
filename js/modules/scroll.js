@@ -6,7 +6,7 @@
  * @last-update: 2015-10-15
  * */
 
-;
+/* ;
 (function($) {
   $.fn.smoothscrollTo = function(e) {
     // when we click on an element
@@ -34,3 +34,4 @@
     $(this).blur();
   });
 }(jQuery));
+*/
